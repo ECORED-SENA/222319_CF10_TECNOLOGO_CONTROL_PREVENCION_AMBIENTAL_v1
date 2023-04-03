@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diagnóstico de los residuos generados',
+    descripcionCurso:
+      'En este componente formativo se realizará un diagnóstico de residuos con el fin de caracterizar los residuos que se generan en las actividades de la organización, su manejo actual en cuanto a recolección, almacenamiento y gestión de los residuos,  para identificar problemáticas y soluciones a estas, realizar propuesta para la adecuada minimización de residuos, aprovechamiento, tratamiento y disposición final de estos con el fin de cumplir la normativa,  en favor de un desarrollo sostenible en la organización.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -101,10 +92,11 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'La isla de las flores',
+      referencia:
+        'Furtado, J. (2008). La isla de las flores. [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=TIeU7_yqrpc',
     },
     {
       tema: '',
@@ -115,18 +107,15 @@ export default {
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
-    },
-    {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Gestión integral de residuos sólidos',
+      significado:
+        'Es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.  (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002).',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Área metropolitana del valle de aburra. (2016). Manual para el manejo integral de residuos sólidos en el valle de aburra.',
     },
   ],
   creditos: {
