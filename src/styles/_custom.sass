@@ -2,14 +2,186 @@
   background-image: url('../assets/curso/mini-portada.png') !important
   background-size: cover
 
-.tema-intro.acordion__activo  
-  background: #E4EBF2
-.tema-intro
-  background: #F6F6F6
 
-.fondo-completo
-  background: red
+.bg-white
+  background-color: #FFFFFF
+.bg-green
+  background-color: #D4F1E5 !important
+.bg-green2
+  background-color: #DFF2ED
+.bg-green3
+  background-color: #34BC85
+.bg-green4
+  background-color: #BADC61
+.bg-green5
+  background-color: #A4DDCD 
+.bg-green6
+  background-color: #E2EACB
+.bg-green7
+  background-color: #F2F6E8
+.bg-blue
+  background-color: #E4EBF2   
+.bg-blue2
+  background-color: #F3F9FF
+.bg-blue3
+  background-color: #D2E1F1  
+.bg-yellow
+  background-color: #FAEDC0  
+.bg-gray   
+  background-color: #F6F6F6 
+.bg-1 
+  background-color: #EA1C24 
+.bg-2 
+  background-color: #10AD4C 
+.bg-3 
+  background-color: #1471C1
+.bg-degrade-green
+  background: rgb(14,73,77)
+  background: linear-gradient(90deg, rgba(14,73,77,1) 0%, rgba(8,48,51,1) 100%)
+
+.fondo-blue
+  background: #E4EBF2
+  background-position: center top
   background-size: cover
+  background-repeat: no-repeat
   margin-inline: -3.4rem
-  @media screen and (max-width: $bp-max-md)
-    media-inline: -1.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem 
+.fondo-green
+  background: #F0FAF6
+  background-position: center top
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem  
+.fondo-green2
+  background: #F2FAF8
+  background-position: center top
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem        
+.fondo-gray
+  background: #F6F6F6
+  background-position: center top
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem    
+.fondo-green-t8
+  background: url('../assets/curso/temas/tema8/fondo-green.png')
+  background-position: center bottom
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover
+.fondo-blue2
+  background: url('../assets/curso/temas/tema4/fondo-blue.png')
+  background-position: center
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem   
+.fondo-blue3
+  background: url('../assets/curso/temas/tema4/fondo-blue.png')
+  background-position: center right
+  background-size: 80% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover            
+
+
+.t-green
+  color: #34BC85
+.w-fit
+  width: fit-content
+.b-radius20
+  border-radius: 20px
+.b-r-r  
+  border-top-right-radius: 10px
+  border-bottom-right-radius: 10px
+.subt   
+  background-color: #0E494D
+  border-radius: 35px
+  padding: 6px 30px
+  width: fit-content  
+
+
+.lista-ul--color.color-sistema-texto li > i:first-of-type
+  color: $color-sistema-texto
+.lista-ul--color.color-primario li > i:first-of-type
+  color: $color-primario
+.lista-ol--cuadro.color-secundario .lista-ol--cuadro__vineta
+  background-color: #34BC85
+  color: $color-sistema-texto
+  font-weight: bold
+
+.h-105
+  height: 105px 
+  @media (min-width: 993px) and (max-width: 1510px)
+    height: 105px
+  @media (max-width: 992px)
+    height: auto  
+.h-366
+  height: 366px 
+  @media (min-width: 993px) and (max-width: 1510px)
+    height: 390px
+  @media (max-width: 992px)
+    height: auto  
+.h-71
+  height: 71px 
+  @media (min-width: 993px) and (max-width: 1510px)
+    height: 75px
+  @media (max-width: 992px)
+    height: auto  
+.h-479
+  height: 479px 
+  @media (min-width: 993px) and (max-width: 1510px)
+    height: 479px
+  @media (max-width: 992px)
+    height: auto               
+
+
+.linea-tiempo-d.linea-blue .linea-tiempo-d__item--selected .linea-tiempo-d__item__number, 
+.linea-tiempo-d.linea-blue .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #D4F1E5
+.linea-tiempo-d.linea-blue .linea-tiempo-d__item__number, 
+.linea-tiempo-d.linea-blue .linea-tiempo-d__item__content
+  background-color: #E4EBF2 
+
+
+.tabla-a tr td
+  border: 1px solid #707070  
+.tabla-a thead, .tabla-a thead th
+  border: 1px solid #707070 
+.tabla-a.border-white tr td
+  border: 1px solid #FFF  
+.tabla-a.border-white thead, .tabla-a thead th
+  border: 1px solid #FFF      
+
+.tabla-a.tema7 thead th:first-child
+  width: 50%
+.tabla-a.tema9 thead th:first-child
+  width: 60%
+.tabla-a.tema10 thead th:first-child
+  width: 60%  
+.tabla-a.tema13 thead th:first-child
+  width: 15%
+.tabla-a.tema13 thead th:last-child
+  width: 55%  
+
+
+.acordion .bg-gray.acordion__activo  
+  background-color: #E4EBF2
+
+.tabs-a__tab
+  background-color: #E8E8E8
