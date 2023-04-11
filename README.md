@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/222319_CF10_TECNOLOGO_CONTROL_PREVENCION_AMBIENTAL_v1](https://ecored-sena.github.io/222319_CF10_TECNOLOGO_CONTROL_PREVENCION_AMBIENTAL_v1/)
+[https://ecored-sena.github.io/222319_CF10_TECNOLOGO_CONTROL_PREVENCION_AMBIENTAL_v2](https://ecored-sena.github.io/222319_CF10_TECNOLOGO_CONTROL_PREVENCION_AMBIENTAL_v2/)
 
 #
 
