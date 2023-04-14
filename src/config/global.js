@@ -477,108 +477,110 @@ export default {
         'https://www.uis.edu.co/webUIS/es/gestionAmbiental/documentos/capacitaciones/Manejo%20de%20Productos%20y%20Residuos%20Quimicos.pdf',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable ecosistema de producción de RED Santander',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Diana Carolina Triana Guarnizo',
-        cargo: 'Instructor',
-        centro: 'Centro de Gestión Industrial',
-      },
-      {
-        nombre: 'Juan Carlos Cárdenas Sánchez',
-        cargo: 'Instructor',
-        centro: 'Centro de Gestión Industrial',
-      },
-      {
-        nombre: 'Gloria Esperanza Ortiz Russi',
-        cargo: 'Evaluador y diseñador instruccional',
-        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      },
-      {
-        nombre: 'Zenith Chinchilla Ruedas',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      },
-      {
-        nombre: 'Vilma Perilla',
-        cargo: 'Evaluadora Instruccional',
-        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      },
-      {
-        nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Evaluadora Instruccional',
-        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      },
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura – Regional Santander',
-      },
-      {
-        nombre: 'Jhon Jairo Rodríguez Pérez',
-        cargo: 'Diseñador y evaluador instruccional',
-        centro:
-          'Centro para la Industria de la Comunicación - Gráfica. Regional Distrito Capital.',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Blanca Flor Tinoco Torres',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: ' ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Andrea Paola Botello De la Rosa',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: ' ',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Responsable del equipo de gestión de repositorio',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable ecosistema de producción de RED Santander',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Gloria Esperanza Ortiz Russi',
+          cargo: 'Evaluador y diseñador instruccional',
+          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Zenith Chinchilla Ruedas',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Vilma Perilla',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura – Regional Santander',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación - Gráfica. Regional Distrito Capital.',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+      ],
+    },
+    {
+      titulo: 'GESTORES DE REPOSITORIO',
+      autores: [
+        {
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
   // creditosInicio: [
   //   {
