@@ -15,33 +15,29 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Introducción importancia del diagnóstico de los residuos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Conceptos generales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Tipos de residuos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Clasificación y características de los residuos',
             hash: 't_3_1',
@@ -50,27 +46,23 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo:
           'Normativa asociada a los residuos sólidos peligrosos y no peligrosos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo:
               'Leyes expedidas sobre el tema de residuos sólidos y reciclaje',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Responsabilidad del generador con los residuos',
             hash: 't_4_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.3',
             titulo: 'Residuos especiales',
             hash: 't_4_3',
@@ -79,52 +71,44 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Cómo empezar un diagnóstico de residuos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Realizar el diagnóstico',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
         numero: '7',
         titulo:
           'Identificación de los recipientes, puntos de generación de residuos y ECOMAPA',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '7.1',
             titulo: 'Tipos de residuos para la separación en la fuente',
             hash: 't_7_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.2',
             titulo: 'Identificación de actividades de minimización de residuos',
             hash: 't_7_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.3',
             titulo: 'Separación en la fuente',
             hash: 't_7_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.4',
             titulo: 'Rotulación',
             hash: 't_7_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.5',
             titulo: 'Puntos de generación de residuos y ECOMAPA',
             hash: 't_7_5',
@@ -133,26 +117,22 @@ export default {
       },
       {
         nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Caracterización y cuantificación de los residuos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '8.1',
             titulo:
               'Metodología recomendada para el muestreo, por método de cuarteo para residuos no peligrosos',
             hash: 't_8_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.2',
             titulo: 'Producción Per Cápita (PPC)',
             hash: 't_8_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.3',
             titulo: 'Caracterización de residuos peligrosos media móvil',
             hash: 't_8_3',
@@ -161,14 +141,12 @@ export default {
       },
       {
         nombreRuta: 'tema9',
-        icono: 'far fa-file-alt',
         numero: '9',
         titulo: 'Reconocimiento de la recolección de los residuos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema10',
-        icono: 'far fa-file-alt',
         numero: '10',
         titulo:
           'Reconocimiento del sitio de almacenamiento temporal y/o final de los residuos',
@@ -176,37 +154,31 @@ export default {
       },
       {
         nombreRuta: 'tema11',
-        icono: 'far fa-file-alt',
         numero: '11',
         titulo: 'Reconocimiento del manejo interno y externo de los residuos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '11.1',
             titulo: 'Reconocimiento del manejo interno',
             hash: 't_11_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '11.2',
             titulo: 'Recolección externa',
             hash: 't_11_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '11.3',
             titulo: ' Aprovechamiento',
             hash: 't_11_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '11.4',
             titulo: 'Tratamiento',
             hash: 't_11_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '11.5',
             titulo: 'Disposición final',
             hash: 't_11_5',
@@ -215,7 +187,6 @@ export default {
       },
       {
         nombreRuta: 'tema12',
-        icono: 'far fa-file-alt',
         numero: '12',
         titulo:
           'Reconocimiento de los registros de información requeridos en la gestión de residuos',
@@ -223,7 +194,6 @@ export default {
       },
       {
         nombreRuta: 'tema13',
-        icono: 'far fa-file-alt',
         numero: '13',
         titulo: 'Informe de diagnóstico de residuos',
         desarrolloContenidos: true,
