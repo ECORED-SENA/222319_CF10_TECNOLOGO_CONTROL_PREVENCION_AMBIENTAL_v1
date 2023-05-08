@@ -22,189 +22,79 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Introducción importancia del diagnóstico de los residuos',
+        titulo:
+          'Importancia del diagnóstico de los residuos y conceptos generales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Conceptos generales',
+        titulo: 'Tipos de residuos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tipos de residuos',
+        titulo:
+          'Normativa asociada a los residuos sólidos peligrosos y no peligrosos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '3.1',
-            titulo: 'Clasificación y características de los residuos',
-            hash: 't_3_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo:
-          'Normativa asociada a los residuos sólidos peligrosos y no peligrosos',
+        titulo: 'Cómo empezar un diagnóstico de residuos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '4.1',
-            titulo:
-              'Leyes expedidas sobre el tema de residuos sólidos y reciclaje',
-            hash: 't_4_1',
-          },
-          {
-            numero: '4.2',
-            titulo: 'Responsabilidad del generador con los residuos',
-            hash: 't_4_2',
-          },
-          {
-            numero: '4.3',
-            titulo: 'Residuos especiales',
-            hash: 't_4_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Cómo empezar un diagnóstico de residuos',
+        titulo:
+          'Identificación de los recipientes, puntos de generación de residuos y ECOMAPA',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Realizar el diagnóstico',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema7',
-        numero: '7',
-        titulo:
-          'Identificación de los recipientes, puntos de generación de residuos y ECOMAPA',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '7.1',
-            titulo: 'Tipos de residuos para la separación en la fuente',
-            hash: 't_7_1',
-          },
-          {
-            numero: '7.2',
-            titulo: 'Identificación de actividades de minimización de residuos',
-            hash: 't_7_2',
-          },
-          {
-            numero: '7.3',
-            titulo: 'Separación en la fuente',
-            hash: 't_7_3',
-          },
-          {
-            numero: '7.4',
-            titulo: 'Rotulación',
-            hash: 't_7_4',
-          },
-          {
-            numero: '7.5',
-            titulo: 'Puntos de generación de residuos y ECOMAPA',
-            hash: 't_7_5',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema8',
-        numero: '8',
         titulo: 'Caracterización y cuantificación de los residuos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '8.1',
+            numero: '6.1',
             titulo:
               'Metodología recomendada para el muestreo, por método de cuarteo para residuos no peligrosos',
-            hash: 't_8_1',
+            hash: 't_6_1',
           },
           {
-            numero: '8.2',
-            titulo: 'Producción Per Cápita (PPC)',
-            hash: 't_8_2',
+            numero: '6.2',
+            titulo: 'Producción per cápita (PPC)',
+            hash: 't_6_2',
           },
           {
-            numero: '8.3',
-            titulo: 'Caracterización de residuos peligrosos media móvil',
-            hash: 't_8_3',
+            numero: '6.3',
+            titulo: 'Producción per cápita (PPC)',
+            hash: 't_6_3',
           },
         ],
       },
       {
-        nombreRuta: 'tema9',
-        numero: '9',
-        titulo: 'Reconocimiento de la recolección de los residuos',
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Diferentes reconocimientos a tener en cuenta',
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema10',
-        numero: '10',
-        titulo:
-          'Reconocimiento del sitio de almacenamiento temporal y/o final de los residuos',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema11',
-        numero: '11',
-        titulo: 'Reconocimiento del manejo interno y externo de los residuos',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '11.1',
-            titulo: 'Reconocimiento del manejo interno',
-            hash: 't_11_1',
-          },
-          {
-            numero: '11.2',
-            titulo: 'Recolección externa',
-            hash: 't_11_2',
-          },
-          {
-            numero: '11.3',
-            titulo: ' Aprovechamiento',
-            hash: 't_11_3',
-          },
-          {
-            numero: '11.4',
-            titulo: 'Tratamiento',
-            hash: 't_11_4',
-          },
-          {
-            numero: '11.5',
-            titulo: 'Disposición final',
-            hash: 't_11_5',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema12',
-        numero: '12',
-        titulo:
-          'Reconocimiento de los registros de información requeridos en la gestión de residuos',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema13',
-        numero: '13',
+        nombreRuta: 'tema8',
+        numero: '8',
         titulo: 'Informe de diagnóstico de residuos',
         desarrolloContenidos: true,
       },
     ],
     subMenu: [
-      /*{
+      {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-      },*/
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',

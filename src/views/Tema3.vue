@@ -5,214 +5,310 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Tipos de residuos
+      h1 Normativa asociada a los residuos sólidos peligrosos y no peligrosos
 
-    p(data-aos="fade") Según la literatura sobre el tema para identificar los diferentes tipos de residuos, se pueden clasificar según cuatro criterios principales:
-
-    .row.bg-gray.px-4.pb-5
-      ImagenInfografica.color-acento-botones.mb-5
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/temas/tema3/img-infog.svg', alt='Tipos de residuos según cuatro criterios principales')
-
-        .tarjeta.bg-yellow.p-3(x="8%" y="37%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según grado de peligrosidad:] Se clasifican en residuos peligrosos y no peligrosos esto quiere decir según el grado de peligrosidad al medio ambiente o a la salud humana.
-
-        .tarjeta.bg-yellow.p-3(x="11.5%" y="58%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según su origen:] Esto quiere decir si son de origen doméstico proveniente de los hogares, origen comercial si son propias del comercio, industrial si son del sector industrial, de escombros y residuos de construcción del sector de construcción, residuos sanitarios si son de centros y establecimientos sanitarios, residuos mineros si son de minas, residuos agrícolas si son del sector agrícola
-
-        .tarjeta.bg-yellow.p-3(x="50.5%" y="101%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según su aprovechamiento:] Se clasifican en aprovechables y no aprovechables, esto depende de cada caso en particular del residuo que se esté tratando y su estado (calidad del residuo).
-
-        .tarjeta.bg-yellow.p-3(x="89.5%" y="58%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según su biodegradabilidad:] Quiere decir si es orgánico o inorgánico.
-
-        .tarjeta.bg-yellow.p-3(x="93%" y="34%" numero="+")
-          p.mb-0 #[b Clasificación según su composición:] Clasificación según tipos de materiales o componentes químicos de lo que esté hecho.
-
-    separador
-
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2 3.1 Clasificación y características de los residuos
-
-    p.mb-5(data-aos="fade") Los residuos son resultado de actividades domésticas, comerciales, industriales, institucionales, de prestación de servicios, entre otras. 
-
-    h3.subt.text-white.mb-4(data-aos="fade") Residuos Peligrosos
-    p.mb-4(data-aos="fade") En la figura 2 se presenta el esquema que facilita la identificación de los residuos o desechos peligrosos, basados en la normatividad ambiental vigente que tiene en cuenta la mayoría de los criterios de peligrosidad establecidos en el convenio de Basilea, del cual Colombia es signataria desde al año 1995, mediante la Ley 253. Dicho convenio fue ratificado el 31 de diciembre de 1996 y entró en vigencia para Colombia desde marzo 31 de 1997.   
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-10
-        .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 2] Tabla criterios de peligrosidad
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-7.mb-4(data-aos="fade-right")
+        .cajon.color-secundario.bg-green.p-4.mb-4
+          p.mb-0 En materia ambiental, Colombia cuenta con una de las legislaciones más desarrolladas y mejor concebidas, con una serie de normas que reglamentan cada uno de los aspectos relacionados con la conservación y utilización de los recursos naturales. Muchas de estas normas han surgido para mitigar problemas ambientales experimentados a lo largo del país, pero también han sido formuladas aprovechando la legislación de otras naciones, más avanzadas y su aplicación práctica en el territorio colombiano ha resultado muy compleja o poco eficaz.
+        p Actualmente, Colombia cuenta con un amplio desarrollo normativo enmarcado en la Política Nacional para la Gestión de Residuos Sólidos emitida en 1998, actualizada en el CONPES soportada por la Constitución Nacional, la Ley 99 de 1993 y la Ley 142 de 1994, que establece tres objetivos específicos que determinan las prioridades de la gestión en residuos:
+        ul.lista-ul--color.color-primario.ps-3
+          li 
+            i.fas.fa-check
+            | Minimizar la cantidad de residuos que se generan.
+          li 
+            i.fas.fa-check
+            | Aumentar el aprovechamiento racional de los residuos sólidos.
+          li 
+            i.fas.fa-check
+            | Mejorar los sistemas de eliminación, tratamiento y disposición final de los residuos sólidos.
+      .col-md-5.mb-4(data-aos="fade-left")
         figure
-          img.px-md-3(src='@/assets/curso/temas/tema3/fig2.svg', alt='Tabla criterios de peligrosidad')
-          figcaption.bg-gray
-            p.mb-0 Nota. Manual para el manejo integral de residuos sólidos en el valle de aburra. Área metropolitana del valle de aburra (2016). 
+          img(src='@/assets/curso/temas/tema4/img.png', alt='Imagen decorativa')
 
-    p.bg-green.p-4.mb-5 A esta gráfica se le conoce con la sigla de CRETIIR usada para relacionar las características que un residuo peligroso pueda tener, cada letra significa: (C: Corrosivo, R: Radioactivo, E: Explosivo, T: Tóxico, I: Inflamable, I: Infeccioso, R: Radioactivo)
+    
+    
+    h3.subt.text-white.mb-4(data-aos="fade") Responsabilidad del generador con los residuos
 
-    .row.justify-content-center.align-items-center
-      .col-md-8.mb-4(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gray")
-          .row.justify-content-center(titulo="Corrosivo")
-            .col-md-11.mb-4.mb-md-0
-              p Los residuos que se consideran como peligrosos en función de su corrosividad son aquellos muy ácidos (pH<2.0) o muy alcalinos (pH>12.5) que pueden reaccionar peligrosamente con otros residuos o provocar la migración de contaminantes tóxicos, o bien que son capaces de corroer el acero en ciertas condiciones y en cierto tiempo, con lo cual pueden llegar a fugarse de sus contenedores y liberar otros residuos (Instituto Nacional de Tecnología y Cambio Climático, 2007).
-          .row.justify-content-center(titulo="Reactivo")
-            .col-md-11.mb-4.mb-md-0
-              p Los residuos reactivos son aquellos que son normalmente inestables y pueden llegar a reaccionar violentamente sin explosión; que pueden formar una mezcla explosiva con el agua, generar gases tóxicos, vapores y humos; que pueden contener cianuro o sulfuro y generar gases tóxicos; o bien que pueden ocasionar explosiones en distintas situaciones, ya sea de temperatura y presión estándares, si se calientan en condiciones de confinamiento o se someten a fuerzas considerables (Instituto Nacional de Tecnología y Cambio Climático, 2007).
-          .row.justify-content-center(titulo="Explosivo")
-            .col-md-11.mb-4.mb-md-0
-              p Los residuos explosivos son aquellos que tienen una constante de explosividad igual o mayor a la del dinitrobenceno, o bien que son capaces de producir una reacción o descomposición detonante o explosiva a 25ºC y a 1.03 kg/cm2 de presión (Instituto Nacional de Tecnología y Cambio Climático, 2007).
-          .row.justify-content-center(titulo="Tóxicos")
-            .col-md-11.mb-4.mb-md-0
-              p Los residuos tóxicos son los que contienen sustancias capaces de causar la muerte o provocar efectos nocivos en la salud de la población, en la flora o en la fauna, que varían en características y severidad de acuerdo con las formas e intensidades de la exposición (Instituto Nacional de Tecnología y Cambio Climático, 2007).
-      .col-md-4.mb-4(data-aos="fade-left")
+    p.mb-4(data-aos="fade") De acuerdo con el decreto 1076 en el artículo 2.2.6.1.3.1. 
+      em Obligaciones del Generador 
+      | y de conformidad con lo establecido en la ley, en el marco de la gestión integral de los residuos o desechos peligrosos, el generador debe:
+
+    .row.bg-blue.tarjeta.align-items-center.p-4.mb-5
+      .col-md-4.mb-4.mb-md-0
         figure
-          img(src='@/assets/curso/temas/tema3/img.png', alt='Imagen decorativa')
-
-    p.mb-4(data-aos="fade") Para este efecto se consideran tóxicos los residuos o desechos que se clasifican de acuerdo con los criterios de toxicidad (efectos agudos, retardados o crónicos y ecotóxicos) definidos a continuación y para los cuales, según sea necesario, las autoridades competentes establecerán los límites de control correspondiente:
-
-    .row.align-items-center.p-4.mb-4
-      .col-md-4.mb-4.mb-md-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema3/img2.png', alt='Imagen decorativa')
-      .col-md-8(data-aos="fade-left")
-        ol.lista-ol--cuadro.color-secundario.ps-3
+          img(src='@/assets/curso/temas/tema4/img2.png', alt='Imagen decorativa')
+      .col-md-8
+        ol.lista-ol--cuadro.color-secundario
           li
             .lista-ol--cuadro__vineta
               span a
-            | Dosis Letal media oral (DL50) para ratas menor o igual a 200 mg/kg para sólidos y menor o igual a 500 mg/kg para líquidos, de peso corporal.
-            li
+            | Garantizar la gestión y manejo integral de los residuos o desechos peligrosos que genera.
+          li 
             .lista-ol--cuadro__vineta
               span b
-            | Dosis Letal media dérmica (DL50) para ratas menor o igual de 1.000 mg/kg de peso corporal.
-            li
+            | Elaborar un plan de gestión integral de los residuos o desechos peligrosos. 
+          li 
             .lista-ol--cuadro__vineta
               span c
-            | Concentración Letal media inhalatoria (CL50) para ratas menor o igual a 10 mg/l.
-            li
+            | Identificar las características de peligrosidad de cada uno de los residuos o desechos peligrosos que genere.
+          li 
             .lista-ol--cuadro__vineta
               span d
-            | Alto potencial de irritación ocular, respiratoria y cutánea, capacidad corrosiva sobre tejidos vivos.
-            li
+            | Garantizar que el envasado o empacado, embalado y etiquetado de sus residuos o desechos peligrosos se realice conforme a la normatividad vigente.
+          li 
             .lista-ol--cuadro__vineta
               span e
-            | Susceptibilidad de bioacumulación y biomagnificación en los seres vivos y en las cadenas tróficas.
-            li
+            | Dar cumplimiento a lo establecido en el Decreto 1609 de 2002 o aquella norma que la modifique o sustituya, cuando remita residuos o desechos peligrosos para ser transportados.
+          li 
             .lista-ol--cuadro__vineta
               span f
-            | Carcinogenicidad, mutagenicidad y teratogenecidad.
-            li
+            | Registrarse ante la autoridad ambiental competente por una sola vez y mantener actualizada la información de su registro anualmente.
+          li 
             .lista-ol--cuadro__vineta
               span g
-            | Neurotoxicidad, inmunotoxicidad u otros efectos retardados.
-            li
+            | Capacitar al personal encargado de la gestión y el manejo de los residuos o desechos peligrosos en sus instalaciones.
+          li 
             .lista-ol--cuadro__vineta
               span h
-            | Toxicidad para organismos superiores y microorganismos terrestres y acuáticos.
-            li
+            | Contar con un plan de contingencia.
+          li 
             .lista-ol--cuadro__vineta
               span i
-            | Otros que las autoridades competentes definan como criterios de riesgo de toxicidad humana o para el ambiente.
+            | Conservar las certificaciones de almacenamiento, aprovechamiento, tratamiento o disposición final que emitan los respectivos receptores, hasta por un tiempo de cinco (5) años.
+          li 
+            .lista-ol--cuadro__vineta
+              span j
+            | Tomar todas las medidas de carácter preventivo o de control previas al cese, cierre, clausura o desmantelamiento de su actividad con el fin de evitar cualquier episodio de contaminación que pueda representar un riesgo a la salud y al ambiente, relacionado con sus residuos o desechos peligrosos.
+          li 
+            .lista-ol--cuadro__vineta
+              span k
+            | Contratar los servicios de almacenamiento, aprovechamiento, recuperación, tratamiento y/o disposición final, con instalaciones que cuenten con las licencias, permisos y autorizaciones. 
 
-        p.mb-4(data-aos="fade") Además, se considera residuo o desecho tóxico aquel que, al realizársele una prueba de lixiviación para característica de toxicidad (conocida como prueba TCLP), contiene uno o más de las sustancias, elementos o compuestos que se presentan en la tabla 1 en concentraciones superiores a los niveles máximos permisibles en el lixiviado establecidos en dicha tabla.
-        .row
-          .col-md-7
-            a.anexo(:href="obtenerLink('downloads/Anexo_Tabla_1_Concentraciones-maximas-contaminantes-prueba-TCLP.pdf')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p.mb-0 #[b Anexo.] Tabla_1 Concentraciones máximas de contaminantes para la prueba TCLP
-
-
-    .row.justify-content-center.align-items-center
-      .col-md-8.mb-4(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gray")
-          .row.justify-content-center(titulo="Inflamable")
-            .col-md-11.mb-4.mb-md-0
-              p Los residuos inflamables son aquellos capaces de causar un incendio en diferentes condiciones tales como fricción, absorción de humedad, cambios químicos espontáneos, y que al incendiarse arden tan vigorosa y persistentemente que pueden representar un riesgo (Instituto Nacional de Tecnología y Cambio Climático, 2007).
-          .row.justify-content-center(titulo="Infeccioso")
-            .col-md-11.mb-4.mb-md-0
-              p A los residuos infecciosos se les conoce también como residuos biológicos o patógenos. Son aquellos que contienen microorganismos patógenos tales como bacterias, parásitos, virus, hongos, virus oncogénicos y recombinantes como sus toxinas, con el suficiente grado de virulencia y concentración que pueda producir una enfermedad infecciosa en huéspedes susceptibles (Ministerio del Medio Ambiente, 2002, p.20). 
-      .col-md-4.mb-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/tema3/img3.png', alt='Imagen decorativa')
-
-    p.mb-4(data-aos="fade") Los residuos infecciosos o de riesgo biológico se clasifican en: 
-
-    TabsA.color-acento-contenido.mb-5(data-aos="fade-down")
-      .row.tarjeta.bg-green7.p-4(titulo="Biosanitarios")
-        .col-md-8
-          h4 Biosanitarios
-          p Son todos aquellos elementos que tienen contacto con materia orgánica, sangre o fluidos corporales del paciente humano o animal tales como: gasas, apósitos, aplicadores, algodones, drenes, vendajes ropas desechables, toallas higiénicas, pañales entre otros similares (Ministerio del Medio Ambiente, 2002, p.21).
-        .col-md-4  
-          figure
-            img(src='@/assets/curso/temas/tema3/tab1.png', alt='Biosanitarios')
-      .row.tarjeta.bg-green7.p-4(titulo="Anatomopatológicos")
-        .col-md-8
-          h4 Anatomopatológicos
-          p Son los provenientes de restos humanos, muestras para análisis, incluyendo biopsias, tejidos orgánicos amputados, partes y fluidos corporales, que se remueven durante necropsias, cirugías u otros procedimientos, tales como placentas, restos de exhumaciones entre otros. (Ministerio del Medio Ambiente, 2002, p.22)
-        .col-md-4  
-          figure
-            img(src='@/assets/curso/temas/tema3/tab2.png', alt='Anatomopatológicos')
-      .row.tarjeta.bg-green7.p-4(titulo="Cortopunzantes")
-        .col-md-8
-          h4 Cortopunzantes
-          p Son aquellos que por sus características punzantes o cortantes pueden dar origen a un accidente percutáneo infeccioso. Dentro de éstos se encuentran: limas, lancetas, cuchillas, agujas, restos de ampolletas, pipetas, láminas de bisturí o vidrio y cualquier otro elemento que por sus características cortopunzantes pueda lesionar y ocasionar un riesgo infeccioso (Ministerio del Medio Ambiente, 2002, p.22).
-        .col-md-4  
-          figure
-            img(src='@/assets/curso/temas/tema3/tab3.png', alt='Cortopunzantes')
-      .row.tarjeta.bg-green7.p-4(titulo="De animales")
-        .col-md-8
-          h4 De animales
-          p Son aquellos provenientes de animales de experimentación, inoculados con microorganismos patógenos y/o los provenientes de animales portadores de enfermedades infectocontagiosas (Ministerio del Medio Ambiente, 2002, p.22).
-        .col-md-4  
-          figure
-            img(src='@/assets/curso/temas/tema3/tab4.png', alt='De animales')
-      .row.tarjeta.bg-green7.p-4(titulo="Radioactivos")
-        .col-md-8
-          h4 Radioactivos
-          p Son sustancias emisoras de energía predecible y continua en forma alfa, beta o de fotones, cuya interacción con materia puede dar lugar a rayos X y neutrones. Debe entenderse que estos residuos contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente para el control del material radiactivo, y para los cuales no se prevé ningún uso (Ministerio del Medio Ambiente, 2002, p.26)
-        .col-md-4  
-          figure
-            img(src='@/assets/curso/temas/tema3/tab5.png', alt='Radioactivos')
-
-
-    h3.subt.text-white.mb-4(data-aos="fade") Residuos no peligrosos
-    p.mb-4(data-aos="fade") Los residuos no peligrosos se clasifican en: 
-
-    .row.align-items-center.mb-4
-      .col-md-5.mb-4(data-aos="fade-right")
-        figure 
-          img(src='@/assets/curso/temas/tema3/img4.png', alt='Imagen decorativa')
-      .col-md-7.mb-4(data-aos="fade-left")
-        LineaTiempoD.linea-blue
-          .row(numero="1" titulo="Biodegradables")
-            p.mb-0 Son aquellos restos químicos o naturales que se descomponen fácilmente en el ambiente. En estos restos se encuentran los vegetales, residuos alimenticios no infectados, papel higiénico, papeles no aptos para reciclaje, jabones y detergentes biodegradables, madera y otros residuos que puedan ser transformados fácilmente en materia orgánica (Ministerio del Medio Ambiente, 2002, p.18).
-          .row(numero="2" titulo="Reciclables")
-            p.mb-0 Son aquellos que no se descomponen fácilmente y pueden volver a ser utilizados en procesos productivos como materia prima. Entre estos residuos se encuentran: algunos papeles y plásticos, chatarra, vidrio, telas, radiografías, partes y equipos obsoletos o en desuso, entre otros (Ministerio del Medio Ambiente, 2002, p.19).
-          .row(numero="3" titulo="Inertes")
-            p.mb-0 Son aquellos que no se descomponen ni se transforman en materia prima y su degradación natural requiere grandes períodos de tiempo. Entre estos se encuentran: el icopor, algunos tipos de papel como el papel carbón y algunos plásticos (Ministerio del Medio Ambiente, 2002, p.19).
-          .row(numero="4" titulo="Ordinarios o comunes")
-            p.mb-0 Son aquellos generados en el desempeño normal de las actividades. Estos residuos se generan en oficinas, pasillos, áreas comunes, cafeterías, salas de espera, auditorios y en general en todos los sitios del establecimiento del generador (Ministerio del Medio Ambiente, 2002, p.19).
-
-
-    .row.fondo-gray.align-items-center.py-5
+    .row.fondo2-tema3.align-items-center.py-5.pb-4.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
         .row.align-items-center.justify-content-center
 
           .col-md-12
-            h3.subt.text-white.mb-4(data-aos="fade") Residuos especiales
-            p.mb-5(data-aos="fade") Según el tipo este residuo puede ser no peligroso o peligroso, ver figura 3; un residuo especial requiere de un manejo especial sea por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles (Área metropolitana del valle de aburra, 2016, p.8).
+            h5.subt.text-white.mb-4(data-aos="fade") Determinación del tipo de generador de residuos peligrosos
+            p.mb-4(data-aos="fade") Se requiere realizar la caracterización de residuos peligrosos para saber su cuantificación, y así determinar si la organización corresponde a alguna de las siguientes categorías establecidas por el Ministerio de Ambiente Vivienda y Desarrollo Territorial mediante el Decreto 1076 de 2015, Artículo 2.2.6.1.1.3. 
+              em Definiciones.
+    
+          .row.justify-content-center.align-items-center
+            .col-md-8.mb-4(data-aos="fade-right")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gray")
+                .row.justify-content-center(titulo="Gran generador")
+                  .col-md-11.mb-4.mb-md-0
+                    p Persona que genera residuos o desechos peligrosos en una cantidad igual o mayor a 1,000.0 kg/mes calendario, considerando los períodos de tiempo de generación del residuo y llevando promedios ponderados y media móvil de los últimos seis (6) meses de las cantidades pesadas. 
+                .row.justify-content-center(titulo="Mediano generador")
+                  .col-md-11.mb-4.mb-md-0
+                    p Persona que genera residuos o desechos peligrosos en una cantidad igual o mayor a 100.0 kg/mes y menor a 1,000.0 kg/mes calendario, considerando los períodos de tiempo de generación del residuo y llevando promedios ponderados y media móvil de los últimos seis (6) meses de las cantidades pesadas.
+                .row.justify-content-center(titulo="Pequeño generador")
+                  .col-md-11.mb-4.mb-md-0
+                    p Persona que genera residuos o desechos peligrosos en una cantidad igual o mayor a 10.0 kg/mes y menor a 100.0 kg/mes calendario, considerando los períodos de tiempo de generación del residuo y llevando promedios ponderados y media móvil de los últimos seis (6) meses de las cantidades pesadas.   
+            .col-md-4.mb-4(data-aos="fade-left")
+              figure
+                img(src='@/assets/curso/temas/tema4/img9.png', alt='Imagen decorativa')
 
-          .col-md-10(data-aos="fade-down")
-            .titulo-sexto.color-secundario
-              p.mb-0 #[b Figura 3] Clasificación de los residuos sólidos
-            figure
-              img.px-md-3(src='@/assets/curso/temas/tema3/fig3.svg', alt='Clasificación de los residuos sólidos')
-              figcaption.bg-white.mt-3
-                p.mb-0 Nota. Clasificación de residuos sólidos, SENA (2020).
+          p.mb-4(data-aos="fade") De acuerdo con el decreto 1076 Artículo 2.2.6.2.2.1. Prohibiciones, del Ministerio de Ambiente Vivienda y Desarrollo, se prohíbe: 
+    
+          .row.align-items-center.p-4
+            .col-md-4.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/temas/tema4/img10.png', alt='Imagen decorativa')
+            .col-md-8
+              ol.lista-ol--cuadro.color-secundario
+                li
+                  .lista-ol--cuadro__vineta
+                    span a
+                  | Introducir o importar al territorio nacional residuos o desechos peligrosos.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span b
+                  | Importar residuos o desechos que contengan o estén constituidos por Contaminantes Orgánicos Persistentes (Aldrín, Clordano, Dieldrín, Endrín, Heptacloro, Hexacloro-benceno, Mirex. Toxafeno, Bifenilos Policlorados, DDT) de acuerdo con lo establecido en el Convenio de Estocolmo.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span c
+                  | Importar equipos o sustancias que contengan Bifenilos Policlorados (PCB), en una concentración igual o superior a 50 mg/kg.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span d
+                  | Quemar residuos o desechos peligrosos a cielo abierto.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span e
+                  | Ingresar residuos o desechos peligrosos en rellenos sanitarios, sino existen celdas de seguridad dentro de este, autorizadas para la disposición final de este tipo de residuos.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span f
+                  | Transferir equipos eléctricos en desuso, que contengan o hayan contenido fluidos dieléctricos, mediante remates, bolsas de residuos, subastas o donaciones públicas o privadas, a personas o empresas que no cuenten con las licencias ambientales correspondientes y sin informar previamente a la autoridad ambiental competente los resultados de las caracterizaciones fisicoquímicas efectuadas para determinar el contenido de bifenilos policlorados PCB.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span g
+                  | La disposición o enterramiento de residuos o desechos peligrosos en sitios no autorizados para esta finalidad por la autoridad ambiental competente.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span h
+                  | El abandono de residuos o desechos peligrosos en vías, suelos, humedales, parques, cuerpos de agua o en cualquier otro sitio.
+    
+
+    p.mb-4(data-aos="fade") ARTÍCULO 2.2.7A.4.5. 
+      em Obligaciones generales. 
+      | Conforme con lo establecido en la Ley 1672 de 2013, en relación con los RAEE, no se podrá:
+
+    .row.justify-content-center.align-items-center
+      .col-md-4.mb-4(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema4/img11.png', alt='Imagen decorativa')
+      .col-md-8.mb-4(data-aos="fade-left")
+        ul.lista-ul--color.color-primario
+          li
+            i.fas.fa-check
+            | Disponer los RAEE en rellenos sanitarios.
+          li
+            i.fas.fa-check
+            | Disponer los RAEE en rellenos de seguridad o celdas de seguridad, si existen gestores o empresas autorizadas por las autoridades ambientales, con capacidad instalada suficiente para el aprovechamiento de tales residuos.
+          li
+            i.fas.fa-check
+            | Abandonar los RAEE en el espacio público o entregarlos a personas diferentes de aquellas que de acuerdo con lo previsto en el presente decreto y en las demás normas aplicables, no se encuentren autorizadas.
+          li
+            i.fas.fa-check
+            | Realizar actividades de almacenamiento, tratamiento, aprovechamiento o disposición final de los RAEE sin contar con la respectiva licencia ambiental o de acuerdo con la normativa vigente.
+          li
+            i.fas.fa-check
+            | La quema de los RAEE, sus partes, componentes o materiales que se hayan extraído.
 
 
+    .row.justify-content-center.align-items-center
+      .col-md-7.mb-4(data-aos="fade-right")
+        p En el 2005, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial (MAVDT) formuló la 
+          span.t-green.text-bold Política ambiental para la gestión integral de los residuos o desechos peligrosos
+          |, que estableció que el manejo inadecuado de los residuos con características de peligrosidad (residuos peligrosos, Respel) y su disposición final junto con residuos no peligrosos, se debía principalmente a la inexistencia de un sistema de manejo separado de los residuos peligrosos.
+        p.p-4.bg-green En este sentido, se establecieron los planes de gestión de devolución de productos posconsumo en Colombia, se identifican los siguientes residuos de posconsumo, con sus respectivos programas: medicamentos vencidos, computadores e impresoras en desuso, envases de plaguicidas domésticos, bombillas fluorescentes usadas, baterías usadas plomo acido, pilas usadas, llantas usadas.
+        p Así mismo, existen dos programas de devolución posconsumo que actualmente no está por normativa que es devolución posconsumo de celulares y aceites usados.
+      .col-md-5.mb-4(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema4/img3.png', alt='Imagen decorativa')
+
+    p(data-aos="fade") La siguiente normativa obliga la devolución posconsumo:
+
+    .row.fondo-blue2.align-items-center.py-4.mb-5
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.align-items-center.justify-content-center
+
+        .row.justify-content-center.align-items-center
+          .col-md-9
+            .row.mb-5
+              .col-md-6.col-lg.mb-5.mb-lg-0
+                .tarjeta-avatar.text-center
+                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='Icono decorativo')
+                  .tarjeta.color-acento-contenido
+                    .p-4
+                      h5 Resolución 1511 de 2010
+                      p Ministerio de Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de bombillas y se adoptan otras disposiciones”.
+              .col-md-6.col-lg.mb-5.mb-lg-0
+                .tarjeta-avatar.text-center
+                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='Icono decorativo')
+                  .tarjeta.color-acento-contenido
+                    .p-4
+                      h5 Resolución 1512 de 2010
+                      p Ministerio de Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de computadores y periféricos y se adoptan otras disposiciones”. 
+              .col-md-6.col-lg.mb-5.mb-lg-0
+                .tarjeta-avatar.text-center
+                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='Icono decorativo')
+                  .tarjeta.color-acento-contenido
+                    .p-4
+                      h5 Resolución 1297 de 2010
+                      p Ministerio de Medio Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de pilas y acumuladores y se adoptan otras disposiciones”. 
+
+          p.mb-4(data-aos="fade") La ley también estipula que los RAEE son residuos de manejo diferenciado y prohíbe su disposición final en rellenos sanitarios, para que sean recolectados y gestionados por los productores y para priorizar su aprovechamiento mediante empresas gestoras que cuenten con licencia ambiental para ello. 
+
+
+
+          
+    h3.subt.text-white.mb-4(data-aos="fade") Requerimientos de residuos sólidos para el aprovechamiento
+    p.mb-4(data-aos="fade") Según el decreto 1077 de 2015 en el Artículo 2.3.2.2.2.8.82, Requerimientos de los residuos sólidos para el aprovechamiento, en las actividades de aprovechamiento, los residuos deben cumplir por lo menos con los siguientes criterios básicos y requerimientos, para que los métodos de aprovechamiento se realicen en forma óptima: 
+
+    .row.justify-content-center
+      .col-md-5.mb-4
+        .bg-green3.tarjeta.p-4.h-479
+          .row.justify-content-center
+            img.mb-4(src='@/assets/curso/temas/tema4/img5.png' alt='Iamgen decorativa')
+            p.text-center Los residuos sólidos deben estar debidamente separados por tipo de material, de acuerdo con los lineamientos establecidos en el Plan de Gestión Integral de Residuos Sólidos (PGIRS) o en su defecto sujetándose a lo establecido en el programa de prestación por la persona prestadora de la actividad de aprovechamiento. 
+      .col-md-5.mb-4
+        .bg-green3.tarjeta.p-4.h-479
+          .row.justify-content-center
+            img.mb-4(src='@/assets/curso/temas/tema4/img6.png' alt='Iamgen decorativa')
+            p.text-center No deben estar contaminados con residuos peligrosos, metales pesados, ni bifenilos policlorados. 
+
+
+    p.mb-5(data-aos="fade") En el caso de las fracciones de residuos sólidos orgánicos biodegradables, el almacenamiento temporal no puede superar las cuarenta y ocho (48) horas.
+
+    
+    
+    h3.subt.text-white.mb-4(data-aos="fade") Residuos especiales
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-6.mb-4(data-aos="fade-right")
+        p Son aquellos residuos que por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles. (Área metropolitana del valle de aburra, 2016, p.8). Algunos ejemplos de residuos especiales son: llantas usadas, ropa, colchones, muebles, escombros, lodos, camas, algunos RAEES como las antenas de telecomunicaciones por su voluminosidad.
+      .col-md-6.mb-4(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema4/img7.png', alt='Imagen decorativa')
+
+
+    
+    h3.t-green.mb-4(data-aos="fade") Residuos de Construcción y Demolición (RCD)
+    p.mb-4(data-aos="fade") Si la organización genera algún tipo de actividad como remodelación, construcción o demolición requiere realizar el trámite con la autoridad ambiental por la generación de este tipo de residuos RCD, se enuncia lo más destacado de la norma. De acuerdo con la resolución 472 de 2017 Por la cual se reglamenta la gestión integral de los residuos generados en las actividades de Construcción y Demolición (RCD) y se dictan otras disposiciones en el artículo 2 se debe tener en cuenta las siguientes definiciones:
+
+    .row.justify-content-center(data-aos="fade-down")
+      .col-md-4.mb-4
+        .tarjeta-avatar.tema3.text-center.h-100
+          h5.titulo Generador de RCD: 
+          .tarjeta.bg-green8
+            .p-4
+              p Es la persona natural o jurídica que, con ocasión de la realización de actividades de construcción, demolición, reparación o mejoras locativas, genera RCD.
+      .col-md-4.mb-4
+        .tarjeta-avatar.tema3.text-center.h-100
+          h5.titulo Gestión integral de RCD:
+          .tarjeta.bg-green8
+            .p-4
+              p Es el conjunto de actividades dirigidas a prevenir, reducir, aprovechar y disponer finalmente los RCD.
+      .col-md-4.mb-4
+        .tarjeta-avatar.tema3.text-center.h-100
+          h5.titulo Gestor de RCD:  
+          .tarjeta.bg-green8
+            .p-4
+              p Es la persona que realiza actividades de recolección, transporte, almacenamiento, aprovechamiento y/o disposición final de RCD.
+    
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-4.mb-4
+        .tarjeta-avatar.tema3.text-center.h-100
+          h5.titulo Pequeño generador de RCD:
+          .tarjeta.bg-green8
+            .p-4
+              p Es el generador de RCD que cumple con alguna de las siguientes condiciones: 1) no requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público; 2) requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público y la obra tenga un área construida inferior a 2.000 m2.
+      .col-md-4.mb-4
+        .tarjeta-avatar.tema3.text-center.h-100
+          h5.titulo Gran generador de RCD:
+          .tarjeta.bg-green8
+            .p-4
+              p Es el generador de RCD que cumple con las siguientes condiciones: 1) requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público 2) la obra tenga un área construida igual o superior a 2.000 m2.
+    
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8.mb-4(data-aos="fade-right")
+        p El artículo 15, Obligaciones de los generadores de RCD. Menciona que son obligaciones de los generadores de RCD las siguientes: 
+        ul.lista-ul--color.color-primario.ps-3.ps-md-4.mb-4
+          li.mb-1
+            i.fas.fa-check
+            | Los grandes generadores deberán formular, implementar y mantener actualizado el Programa de Manejo Ambiental de RCD que se especifica en la norma.
+          li 
+            i.fas.fa-check
+            | Los pequeños generadores tienen la obligación de entregar los RCD a un gestor de RCD para que se realicen las actividades de recolección y transporte hasta los puntos limpios, sitios de aprovechamiento o disposición final según sea el caso.  
+      .col-md-4.mb-4(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema4/img8.png', alt='Imagen decorativa')
 
 
 

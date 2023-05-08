@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Introducción importancia del diagnóstico de los residuos
+      h1 Importancia del diagnóstico de los residuos y conceptos generales
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -20,7 +20,7 @@
     p(data-aos="fade") Para complementar la información se pueden visualizar los siguientes videos:
 
 
-    .row.align-items-center.justify-content-center(data-aos="fade-down")
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .row.tarjeta.bg-degrade-green.align-items-center.p-4
         .col-lg-2.col-md-2.col-6(data-aos="fade-left")
           figure
@@ -41,6 +41,68 @@
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
                   p  #[b Enlace web.] Acciona (2018 abril 19) Generación y gestión de residuos – Sostenibilidad/Acciona
+
+
+
+
+    h3.subt.text-white.mb-3(data-aos="fade") Conceptos generales
+    p.mb-4(data-aos="fade") En la aplicación del presente componente formativo se tendrán en cuenta las siguientes definiciones establecidas en la normatividad vigente:
+
+    h3.subt.text-white.mb-3(data-aos="fade") Definiciones
+
+    .row.align-items-center.mb-4
+      .col-md-8.mb-4(data-aos="fade-right")
+        LineaTiempoD.linea-blue
+          .row(numero="1" titulo="Residuo sólido o desecho")
+            p.mb-0 Es cualquier objeto, material, sustancia o elemento sólido resultante del consumo o uso de un bien en actividades domésticas, industriales, comerciales, institucionales, de servicios, que el generador abandona, rechaza o entrega y que es susceptible de aprovechamiento o transformación en un nuevo bien, con valor económico o de disposición final (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p. 4).
+          .row(numero="2" titulo="Residuo sólido aprovechable")
+            p.mb-0 Es cualquier material, objeto, sustancia o elemento sólido que no tiene valor de uso directo o indirecto para quien lo genere, pero que es susceptible de incorporación a un proceso productivo (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p. 4).
+          .row(numero="3" titulo="Residuo sólido no aprovechable")
+            p.mb-0 Es todo material o sustancia sólida o semisólida de origen orgánico e inorgánico, putrescible o no, proveniente de actividades domésticas, industriales, comerciales, institucionales, de servicios, que no ofrece ninguna posibilidad de aprovechamiento, reutilización o reincorporación en un proceso productivo. Son residuos sólidos que no tienen ningún valor comercial, requieren tratamiento y disposición final y por lo tanto generan costos de disposición (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p. 4). 
+          .row(numero="4" titulo="Residuo peligroso")
+            p.mb-0 Es aquel que, por sus características infecciosas, tóxicas, explosivas, corrosivas, inflamables, volátiles, combustibles, radiactivas o reactivas puedan causar riesgo a la salud humana o deteriorar la calidad ambiental hasta niveles que causen riesgo a la salud humana. También son residuos peligrosos aquellos que sin serlo en su forma original se transforman por procesos naturales en residuos peligrosos (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p. 4).
+          .row(numero="5" titulo="Residuos anatomopatológicos")
+            p.mb-0 Son aquellos residuos como partes del cuerpo, muestras de órganos, tejidos o líquidos humanos, generados con ocasión de la realización de necropsias, procedimientos médicos, remoción quirúrgica, análisis de patología, toma de biopsias o como resultado de la obtención de muestras biológicas para análisis químico, microbiológico, citológico o histológico (Ministerio de salud y protección social, 2016).
+          .row(numero="6" titulo="Residuos no peligrosos")
+            p.mb-0 Son aquellos producidos por el generador en desarrollo de su actividad, que no presentan ninguna de las características de peligrosidad (Ministerio de salud y protección social, 2016).
+      .col-md-4.mb-4(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema2/img1.jpg', alt='Imagen decorativa')
+
+
+    .row.align-items-center.mb-4
+      .col-md-5.mb-4(data-aos="fade-right")
+        figure 
+          img(src='@/assets/curso/temas/tema2/img2.jpg', alt='Imagen decorativa')
+      .col-md-7.mb-4(data-aos="fade-left")
+        LineaTiempoD.linea-blue
+          .row(numero="7" titulo="Residuos especiales")
+            p.mb-0 Son aquellos residuos que por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles. (Área metropolitana del Valle de Aburra, 2016, p.8)
+          .row(numero="8" titulo="Lixiviado")
+            p.mb-0 Es el líquido residual generado por la descomposición biológica de la parte orgánica o biodegradable de los residuos sólidos bajo condiciones aeróbicas o anaeróbicas y/o como resultado de la percolación de agua a través de los residuos en proceso de degradación (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.4).
+          .row(numero="9" titulo="Reciclaje")
+            p.mb-0 Es el proceso mediante el cual se aprovechan y transforman los residuos sólidos recuperados y se devuelve a los materiales su potencialidad de reincorporación como materia prima para la fabricación de nuevos productos. El reciclaje puede constar de varias etapas: procesos de tecnologías limpias (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.4).
+          .row(numero="10" titulo="Reutilización")
+            p.mb-0 Es la prolongación y adecuación de la vida útil de los residuos sólidos recuperados y que mediante procesos, operaciones o técnicas devuelven a los materiales su posibilidad de utilización en su función original o en alguna relacionada, sin que para ello requieran procesos adicionales de transformación (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.4).
+          .row(numero="11" titulo="Disposición final")
+            p.mb-0 Es el proceso de aislar y confinar los residuos o desechos peligrosos, en especial los no aprovechables, en lugares especialmente seleccionados, diseñados y debidamente autorizados, para evitar la contaminación y los daños o riesgos a la salud humana y al ambiente (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2015).
+          .row(numero="12" titulo="Separación en la fuente")
+            p.mb-0 Es la clasificación de los residuos sólidos en el sitio donde se generan para su posterior recuperación (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.4).
+          .row(numero="13" titulo="Generador o productor")
+            p.mb-0 Persona que produce residuos sólidos y es usuario del servicio (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3).
+
+
+    .row.justify-content-center.tarjeta.bg-gray.py-5.mb-4(data-aos="fade-down")
+      .col-lg-8
+        .titulo-sexto.color-secundario.mb-4
+          p.mb-0 #[b Figura 1] Jerarquía en la gestión de residuos
+        figure.mb-3
+          img(src='@/assets/curso/temas/tema2/fig1.svg', alt='Texto que describa la imagen')
+        figcaption.bg-white 
+          p.mb-0 Nota. Guía para el manejo integral de residuos. Universidad Pontificia Bolivariana y Área metropolitana del valle de aburra (2008).
+
+
+
 
 
       
