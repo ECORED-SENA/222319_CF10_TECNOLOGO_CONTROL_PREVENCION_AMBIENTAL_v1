@@ -12,14 +12,15 @@
     .row.align-items-center.mb-5
       .col-lg-6(data-aos="fade-right")
         .cajon.color-secundario.bg-green.p-4.mb-4.mb-md-0
-          p Con el aumento de la población, la expansión urbana y el acelerado crecimiento industrial, uno de los problemas ambientales es la alta tasa de generación de residuos sólidos; situación que trae consigo una serie de impactos ambientales negativos que demandan un adecuado manejo. Es por ello que diagnosticar la problemática de residuos sólidos de acuerdo con la naturaleza de la fuente generadora es una actividad fundamental para conocer en profundidad el manejo adecuado e inmediato que debe darse, según la actividad económica o fuente que lo genera.  En este componente formativo se encontrarán herramientas básicas y fundamentales para el desarrollo de un buen diagnóstico de los residuos según la actividad generadora.
+          p Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos la temática relacionada con el el diagnóstico de los residuos generados. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
       .col-lg-6(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/intro/img.jpg' alt='Imagen decorativa para introoducción')
+          img(src='@/assets/curso/temas/intro/img.png' alt='')
     
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/YbNpENyvvUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Diagnóstico de los residuos generados
 
 
 

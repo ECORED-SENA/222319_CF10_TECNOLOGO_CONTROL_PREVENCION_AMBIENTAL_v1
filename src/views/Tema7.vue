@@ -13,9 +13,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/nuevo-tema/img.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/nuevo-tema/img.png', alt='')
       .col-md-8.mb-4(data-aos="fade-left")
-        ul.lista-ul--color
+        ul.lista-ul--color.fa-ul
           li
             i.fas.fa-check
             | Tiene definidas rutas de recolección.
@@ -46,9 +46,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-3.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/nuevo-tema/img2.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/nuevo-tema/img2.png', alt='')
       .col-md-9.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-primario
+        ul.lista-ul--color.color-primario.fa-ul
           li.mb-1
             i.fas.fa-check
             | Localizado al interior de la organización y de acceso restringido.
@@ -90,7 +90,7 @@
           
           .row.justify-content-center.align-items-center.mb-4
             .col-md-7.mb-4(data-aos="fade-right")
-              ul.lista-ul--color.color-primario
+              ul.lista-ul--color.color-primario.fa-ul
                 li.mb-2
                   i.fas.fa-check
                   | La bodega está alejada de zonas densamente pobladas, de fuentes de captación de agua potable, de áreas inundables y de posibles fuentes externas de peligro.
@@ -111,14 +111,14 @@
                   | Los drenajes están sellados y protegidos de daño por el paso de vehículos y el movimiento de estibas.            
             .col-md-5.mb-4(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/temas/nuevo-tema/img3.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/nuevo-tema/img3.png', alt='')
         
           .row.justify-content-center.align-items-center
             .col-md-5.mb-4(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/temas/nuevo-tema/img4.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/nuevo-tema/img4.png', alt='')
             .col-md-7.mb-4(data-aos="fade-left")
-              ul.lista-ul--color.color-primario
+              ul.lista-ul--color.color-primario.fa-ul
                 li.mb-3
                   i.fas.fa-check
                   | Todas las sustancias peligrosas almacenadas, están ubicadas en un sitio confinado mediante paredes, diques o bordillos perimetrales.
@@ -146,7 +146,7 @@
 
 
         p(data-aos="fade") Adicionalmente es necesario evaluar las actividades inherentes al almacenamiento de residuos peligrosos.
-        p(data-aos="fade") Los almacenamiento de residuos, la mayoría de las veces se divide en bodegas una bodega de almacenamiento para residuos no peligrosos ordinarios, otra bodega de almacenamiento de residuos reciclables y otra bodega de residuos peligrosos, o se comparte la bodega colocando divisiones, para el caso de residuos peligrosos se debe tener en cuenta la matriz de compatibilidad de los residuos
+        p(data-aos="fade") Los almacenamientos de residuos, la mayoría de las veces se divide en bodegas una bodega de almacenamiento para residuos no peligrosos ordinarios, otra bodega de almacenamiento de residuos reciclables y otra bodega de residuos peligrosos, o se comparte la bodega colocando divisiones, para el caso de residuos peligrosos se debe tener en cuenta la matriz de compatibilidad de los residuos
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Reconocimiento del manejo interno y externo de los residuos
@@ -170,13 +170,13 @@
               p Determinar si se está dando algún tipo de tratamiento a los residuos generados, en caso afirmativo, definir qué proceso usa para cada tipo de residuo y si se realiza al interior o al exterior de la organización.  
       .col-md-4.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/nuevo-tema/img5.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/nuevo-tema/img5.png', alt='')
     
 
     .row.justify-content-center.align-items-center
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/nuevo-tema/img6.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/nuevo-tema/img6.png', alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gray")
           .row.justify-content-center(titulo="Disposición final")
@@ -185,13 +185,14 @@
           .row.justify-content-center(titulo="Reconocimiento de los registros de información requeridos en la gestión de residuos")
             .col-md-11.mb-4.mb-md-0
               p Los registros que deben solicitarte para el diagnóstico son: 
-              ol.lista-ol
+              ol.lista-ol.fa-ul
                 li.mb-0
                   span 1.
                   | Registro de la caracterización de residuos sólidos.
                 li.mb-0               
                   span 2.
                   | Registros de recolección de residuos sólidos.
+                li.mb-0 
                   i.mb-0
                   span 3.
                   | Registros de almacenamiento de residuos sólidos.

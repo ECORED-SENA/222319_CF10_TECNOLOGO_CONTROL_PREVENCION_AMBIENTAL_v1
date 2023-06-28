@@ -13,7 +13,7 @@
         .cajon.color-secundario.bg-green.p-4.mb-4
           p.mb-0 En materia ambiental, Colombia cuenta con una de las legislaciones más desarrolladas y mejor concebidas, con una serie de normas que reglamentan cada uno de los aspectos relacionados con la conservación y utilización de los recursos naturales. Muchas de estas normas han surgido para mitigar problemas ambientales experimentados a lo largo del país, pero también han sido formuladas aprovechando la legislación de otras naciones, más avanzadas y su aplicación práctica en el territorio colombiano ha resultado muy compleja o poco eficaz.
         p Actualmente, Colombia cuenta con un amplio desarrollo normativo enmarcado en la Política Nacional para la Gestión de Residuos Sólidos emitida en 1998, actualizada en el CONPES soportada por la Constitución Nacional, la Ley 99 de 1993 y la Ley 142 de 1994, que establece tres objetivos específicos que determinan las prioridades de la gestión en residuos:
-        ul.lista-ul--color.color-primario.ps-3
+        ul.lista-ul--color.color-primario.ps-3.fa-ul
           li 
             i.fas.fa-check
             | Minimizar la cantidad de residuos que se generan.
@@ -25,7 +25,7 @@
             | Mejorar los sistemas de eliminación, tratamiento y disposición final de los residuos sólidos.
       .col-md-5.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema4/img.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img.png', alt='')
 
     
     
@@ -38,9 +38,9 @@
     .row.bg-blue.tarjeta.align-items-center.p-4.mb-5
       .col-md-4.mb-4.mb-md-0
         figure
-          img(src='@/assets/curso/temas/tema4/img2.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img2.png', alt='')
       .col-md-8
-        ol.lista-ol--cuadro.color-secundario
+        ol.lista-ol--cuadro.color-secundario.fa-ul
           li
             .lista-ol--cuadro__vineta
               span a
@@ -109,16 +109,16 @@
                     p Persona que genera residuos o desechos peligrosos en una cantidad igual o mayor a 10.0 kg/mes y menor a 100.0 kg/mes calendario, considerando los períodos de tiempo de generación del residuo y llevando promedios ponderados y media móvil de los últimos seis (6) meses de las cantidades pesadas.   
             .col-md-4.mb-4(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/temas/tema4/img9.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema4/img9.png', alt='')
 
           p.mb-4(data-aos="fade") De acuerdo con el decreto 1076 Artículo 2.2.6.2.2.1. Prohibiciones, del Ministerio de Ambiente Vivienda y Desarrollo, se prohíbe: 
     
           .row.align-items-center.p-4
             .col-md-4.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema4/img10.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema4/img10.png', alt='')
             .col-md-8
-              ol.lista-ol--cuadro.color-secundario
+              ol.lista-ol--cuadro.color-secundario.fa-ul
                 li
                   .lista-ol--cuadro__vineta
                     span a
@@ -160,9 +160,9 @@
     .row.justify-content-center.align-items-center
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema4/img11.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img11.png', alt='')
       .col-md-8.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-primario
+        ul.lista-ul--color.color-primario.fa-ul
           li
             i.fas.fa-check
             | Disponer los RAEE en rellenos sanitarios.
@@ -189,7 +189,7 @@
         p Así mismo, existen dos programas de devolución posconsumo que actualmente no está por normativa que es devolución posconsumo de celulares y aceites usados.
       .col-md-5.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema4/img3.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img3.png', alt='')
 
     p(data-aos="fade") La siguiente normativa obliga la devolución posconsumo:
 
@@ -202,21 +202,21 @@
             .row.mb-5
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar.text-center
-                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='Icono decorativo')
+                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='')
                   .tarjeta.color-acento-contenido
                     .p-4
                       h5 Resolución 1511 de 2010
                       p Ministerio de Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de bombillas y se adoptan otras disposiciones”.
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar.text-center
-                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='Icono decorativo')
+                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='')
                   .tarjeta.color-acento-contenido
                     .p-4
                       h5 Resolución 1512 de 2010
                       p Ministerio de Ambiente, Vivienda y Desarrollo Territorial, “por la cual se establecen los sistemas de recolección selectiva y gestión ambiental de residuos de computadores y periféricos y se adoptan otras disposiciones”. 
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar.text-center
-                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='Icono decorativo')
+                  img(src='@/assets/curso/temas/tema4/tarj-ico.svg' alt='')
                   .tarjeta.color-acento-contenido
                     .p-4
                       h5 Resolución 1297 de 2010
@@ -254,7 +254,7 @@
         p Son aquellos residuos que por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles. (Área metropolitana del valle de aburra, 2016, p.8). Algunos ejemplos de residuos especiales son: llantas usadas, ropa, colchones, muebles, escombros, lodos, camas, algunos RAEES como las antenas de telecomunicaciones por su voluminosidad.
       .col-md-6.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema4/img7.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img7.png', alt='')
 
 
     
@@ -262,44 +262,42 @@
     p.mb-4(data-aos="fade") Si la organización genera algún tipo de actividad como remodelación, construcción o demolición requiere realizar el trámite con la autoridad ambiental por la generación de este tipo de residuos RCD, se enuncia lo más destacado de la norma. De acuerdo con la resolución 472 de 2017 Por la cual se reglamenta la gestión integral de los residuos generados en las actividades de Construcción y Demolición (RCD) y se dictan otras disposiciones en el artículo 2 se debe tener en cuenta las siguientes definiciones:
 
     .row.justify-content-center(data-aos="fade-down")
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-avatar.tema3.text-center.h-100
           h5.titulo Generador de RCD: 
           .tarjeta.bg-green8
             .p-4
               p Es la persona natural o jurídica que, con ocasión de la realización de actividades de construcción, demolición, reparación o mejoras locativas, genera RCD.
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-avatar.tema3.text-center.h-100
           h5.titulo Gestión integral de RCD:
           .tarjeta.bg-green8
             .p-4
               p Es el conjunto de actividades dirigidas a prevenir, reducir, aprovechar y disponer finalmente los RCD.
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-avatar.tema3.text-center.h-100
           h5.titulo Gestor de RCD:  
           .tarjeta.bg-green8
             .p-4
               p Es la persona que realiza actividades de recolección, transporte, almacenamiento, aprovechamiento y/o disposición final de RCD.
-    
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-4.mb-4
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-avatar.tema3.text-center.h-100
           h5.titulo Pequeño generador de RCD:
           .tarjeta.bg-green8
             .p-4
-              p Es el generador de RCD que cumple con alguna de las siguientes condiciones: 1) no requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público; 2) requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público y la obra tenga un área construida inferior a 2.000 m2.
-      .col-md-4.mb-4
+              p Es el generador de RCD que cumple con alguna de las siguientes condiciones: 1) no requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público; 2) requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público y la obra tenga un área construida inferior a 2.000 m<sup>2</sup>.
+      .col-md-6.col-lg-4.mb-4
         .tarjeta-avatar.tema3.text-center.h-100
           h5.titulo Gran generador de RCD:
           .tarjeta.bg-green8
             .p-4
-              p Es el generador de RCD que cumple con las siguientes condiciones: 1) requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público 2) la obra tenga un área construida igual o superior a 2.000 m2.
+              p Es el generador de RCD que cumple con las siguientes condiciones: 1) requiere la expedición de licencia de construcción en cualquiera de sus modalidades y/o licencia de intervención y ocupación del espacio público 2) la obra tenga un área construida igual o superior a 2.000 m<sup>2</sup>.
     
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4.mt-5
       .col-md-8.mb-4(data-aos="fade-right")
         p El artículo 15, Obligaciones de los generadores de RCD. Menciona que son obligaciones de los generadores de RCD las siguientes: 
-        ul.lista-ul--color.color-primario.ps-3.ps-md-4.mb-4
+        ul.lista-ul--color.color-primario.ps-3.ps-md-4.mb-4.fa-ul
           li.mb-1
             i.fas.fa-check
             | Los grandes generadores deberán formular, implementar y mantener actualizado el Programa de Manejo Ambiental de RCD que se especifica en la norma.
@@ -308,7 +306,7 @@
             | Los pequeños generadores tienen la obligación de entregar los RCD a un gestor de RCD para que se realicen las actividades de recolección y transporte hasta los puntos limpios, sitios de aprovechamiento o disposición final según sea el caso.  
       .col-md-4.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema4/img8.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img8.png', alt='')
 
 
 

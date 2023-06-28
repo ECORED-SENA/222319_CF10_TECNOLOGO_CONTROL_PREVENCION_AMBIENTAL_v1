@@ -8,7 +8,7 @@
       h1 Tipos de residuos
 
 
-    p(data-aos="fade") Según la literatura sobre el tema para identificar los diferentes tipos de residuos, se pueden clasificar según cuatro criterios principales:
+    p(data-aos="fade") Para identificar los diferentes tipos de residuos, se pueden clasificar en los siguientes criterios:
 
     .row.bg-gray.px-4.pb-5.mb-5
       ImagenInfografica.color-acento-botones.mb-5
@@ -17,19 +17,19 @@
             img(src='@/assets/curso/temas/tema3/img-infog.svg', alt='Tipos de residuos según cuatro criterios principales')
 
         .tarjeta.bg-yellow.p-3(x="8%" y="37%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según grado de peligrosidad:] Se clasifican en residuos peligrosos y no peligrosos esto quiere decir según el grado de peligrosidad al medio ambiente o a la salud humana.
+          p.mb-0 #[b Clasificación de los residuos según grado de peligrosidad:] se clasifican en residuos peligrosos y no peligrosos esto quiere decir según el grado de peligrosidad al medio ambiente o a la salud humana.
 
         .tarjeta.bg-yellow.p-3(x="11.5%" y="58%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según su origen:] Esto quiere decir si son de origen doméstico proveniente de los hogares, origen comercial si son propias del comercio, industrial si son del sector industrial, de escombros y residuos de construcción del sector de construcción, residuos sanitarios si son de centros y establecimientos sanitarios, residuos mineros si son de minas, residuos agrícolas si son del sector agrícola
+          p.mb-0 #[b Clasificación de los residuos según su origen:] esto quiere decir si son de origen doméstico proveniente de los hogares, origen comercial si son propias del comercio, industrial si son del sector industrial, de escombros y residuos de construcción del sector de construcción, residuos sanitarios si son de centros y establecimientos sanitarios, residuos mineros si son de minas, residuos agrícolas si son del sector agrícola.
 
         .tarjeta.bg-yellow.p-3(x="50.5%" y="101%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según su aprovechamiento:] Se clasifican en aprovechables y no aprovechables, esto depende de cada caso en particular del residuo que se esté tratando y su estado (calidad del residuo).
+          p.mb-0 #[b Clasificación de los residuos según su aprovechamiento:] se clasifican en aprovechables y no aprovechables, esto depende de cada caso en particular del residuo que se esté tratando y su estado (calidad del residuo).
 
         .tarjeta.bg-yellow.p-3(x="89.5%" y="58%" numero="+")
-          p.mb-0 #[b Clasificación de los residuos según su biodegradabilidad:] Quiere decir si es orgánico o inorgánico.
+          p.mb-0 #[b Clasificación de los residuos según su biodegradabilidad:] quiere decir si es orgánico o inorgánico.
 
         .tarjeta.bg-yellow.p-3(x="93%" y="34%" numero="+")
-          p.mb-0 #[b Clasificación según su composición:] Clasificación según tipos de materiales o componentes químicos de lo que esté hecho.
+          p.mb-0 #[b Clasificación según su composición:] clasificación según tipos de materiales o componentes químicos de lo que esté hecho.
 
     
     h3.subt.text-white.mb-3(data-aos="fade") Clasificación y características de los residuos
@@ -37,13 +37,11 @@
     p.mb-5(data-aos="fade") Los residuos son resultado de actividades domésticas, comerciales, industriales, institucionales, de prestación de servicios, entre otras. 
 
     h3.t-green.mb-4(data-aos="fade") Residuos Peligrosos
-    p.mb-4(data-aos="fade") En la figura 2 se presenta el esquema que facilita la identificación de los residuos o desechos peligrosos, basados en la normatividad ambiental vigente que tiene en cuenta la mayoría de los criterios de peligrosidad establecidos en el convenio de Basilea, del cual Colombia es signataria desde al año 1995, mediante la Ley 253. Dicho convenio fue ratificado el 31 de diciembre de 1996 y entró en vigencia para Colombia desde marzo 31 de 1997.   
+    p.mb-4(data-aos="fade") A continuación, se presenta el esquema que facilita la identificación de los residuos o desechos peligrosos, basados en la normatividad ambiental vigente que tiene en cuenta la mayoría de los criterios de peligrosidad establecidos en el convenio de Basilea, del cual Colombia es signataria desde al año 1995, mediante la Ley 253. Dicho convenio fue ratificado el 31 de diciembre de 1996 y entró en vigencia para Colombia desde marzo 31 de 1997.
     p.bg-green.p-4.mb-5 A esta gráfica se le conoce con la sigla de CRETIIR usada para relacionar las características que un residuo peligroso pueda tener, cada letra significa: (C: Corrosivo, R: Radioactivo, E: Explosivo, T: Tóxico, I: Inflamable, I: Infeccioso, R: Radioactivo)
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10
-        .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 2] Tabla criterios de peligrosidad
         figure
           img.px-md-3(src='@/assets/curso/temas/tema3/fig2.svg', alt='Tabla criterios de peligrosidad')
           figcaption.bg-gray
@@ -61,18 +59,18 @@
               p Los residuos reactivos son aquellos que son normalmente inestables y pueden llegar a reaccionar violentamente sin explosión; que pueden formar una mezcla explosiva con el agua, generar gases tóxicos, vapores y humos; que pueden contener cianuro o sulfuro y generar gases tóxicos; o bien que pueden ocasionar explosiones en distintas situaciones, ya sea de temperatura y presión estándares, si se calientan en condiciones de confinamiento o se someten a fuerzas considerables. (Instituto Nacional de Tecnología y Cambio Climático, 2007) 
           .row.justify-content-center(titulo="Explosivo")
             .col-md-11.mb-4.mb-md-0
-              p Los residuos explosivos son aquellos que tienen una constante de explosividad igual o mayor a la del dinitrobenceno, o bien que son capaces de producir una reacción o descomposición detonante o explosiva a 25ºC y a 1.03 kg/cm2 de presión. (Instituto Nacional de Tecnología y Cambio Climático, 2007) 
+              p Los residuos explosivos son aquellos que tienen una constante de explosividad igual o mayor a la del dinitrobenceno, o bien que son capaces de producir una reacción o descomposición detonante o explosiva a 25ºC y a 1.03 kg/cm<sup>2</sup> de presión. (Instituto Nacional de Tecnología y Cambio Climático, 2007) 
           .row.justify-content-center(titulo="Tóxicos")
             .col-md-11.mb-4.mb-md-0
               p Los residuos tóxicos son los que contienen sustancias capaces de causar la muerte o provocar efectos nocivos en la salud de la población, en la flora o en la fauna, que varían en características y severidad de acuerdo con las formas e intensidades de la exposición. (Instituto Nacional de Tecnología y Cambio Climático, 2007) 
       .col-md-4.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema3/img.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img.png', alt='')
 
     .row.justify-content-center.align-items-center
       .col-md-5.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema3/img3.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img3.png', alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gray")
           .row.justify-content-center(titulo="Inflamable")
@@ -92,42 +90,42 @@
     .row.align-items-center.p-4.mb-4
       .col-md-4.mb-4.mb-md-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema3/img2.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img2.png', alt='')
       .col-md-8(data-aos="fade-left")
-        ol.lista-ol--cuadro.color-secundario.ps-3
+        ol.lista-ol--cuadro.color-secundario.ps-3.fa-ul
           li
             .lista-ol--cuadro__vineta
               span a
             | Dosis Letal media oral (DL50) para ratas menor o igual a 200 mg/kg para sólidos y menor o igual a 500 mg/kg para líquidos, de peso corporal.
-            li
+          li
             .lista-ol--cuadro__vineta
               span b
             | Dosis Letal media dérmica (DL50) para ratas menor o igual de 1.000 mg/kg de peso corporal.
-            li
+          li
             .lista-ol--cuadro__vineta
               span c
             | Concentración Letal media inhalatoria (CL50) para ratas menor o igual a 10 mg/l.
-            li
+          li
             .lista-ol--cuadro__vineta
               span d
             | Alto potencial de irritación ocular, respiratoria y cutánea, capacidad corrosiva sobre tejidos vivos.
-            li
+          li
             .lista-ol--cuadro__vineta
               span e
             | Susceptibilidad de bioacumulación y biomagnificación en los seres vivos y en las cadenas tróficas.
-            li
+          li
             .lista-ol--cuadro__vineta
               span f
             | Carcinogenicidad, mutagenicidad y teratogenecidad.
-            li
+          li
             .lista-ol--cuadro__vineta
               span g
             | Neurotoxicidad, inmunotoxicidad u otros efectos retardados.
-            li
+          li
             .lista-ol--cuadro__vineta
               span h
             | Toxicidad para organismos superiores y microorganismos terrestres y acuáticos.
-            li
+          li
             .lista-ol--cuadro__vineta
               span i
             | Otros que las autoridades competentes definan como criterios de riesgo de toxicidad humana o para el ambiente.
@@ -168,13 +166,6 @@
         .col-md-4  
           figure
             img(src='@/assets/curso/temas/tema3/tab4.png', alt='De animales')
-      .row.tarjeta.bg-green7.p-4(titulo="Radioactivos")
-        .col-md-8
-          h4 Radioactivos
-          p Son sustancias emisoras de energía predecible y continua en forma alfa, beta o de fotones, cuya interacción con materia puede dar lugar a rayos X y neutrones. Debe entenderse que estos residuos contienen o están contaminados por radionúclidos en concentraciones o actividades superiores a los niveles de exención establecidos por la autoridad competente para el control del material radiactivo, y para los cuales no se prevé ningún uso (Ministerio del Medio Ambiente, 2002, p.26)
-        .col-md-4  
-          figure
-            img(src='@/assets/curso/temas/tema3/tab5.png', alt='Radioactivos')
 
 
     h3.t-green.mb-4(data-aos="fade") Residuos no peligrosos
@@ -183,7 +174,7 @@
     .row.align-items-center.mb-4
       .col-md-5.mb-4(data-aos="fade-right")
         figure 
-          img(src='@/assets/curso/temas/tema3/img4.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img4.png', alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         LineaTiempoD.linea-blue
           .row(numero="1" titulo="Biodegradables")
@@ -202,11 +193,11 @@
 
           .col-md-12
             h3.t-green.mb-4(data-aos="fade") Residuos especiales
-            p.mb-5(data-aos="fade") Según el tipo este residuo puede ser no peligroso o peligroso, ver figura 3; un residuo especial requiere de un manejo especial sea por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles (Área metropolitana del valle de aburra, 2016, p.8).
+            p.mb-5(data-aos="fade") Según el tipo, este residuo puede ser no peligroso o peligroso. Un residuo especial requiere de un manejo especial sea por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles. (Área metropolitana del Valle de Aburrá, 2016, p.8)
 
           .col-md-10(data-aos="fade-down")
             .titulo-sexto.color-secundario
-              p.mb-0 #[b Figura 3] Clasificación de los residuos sólidos
+              p.mb-0 #[b Figura 2.] Clasificación de los residuos sólidos
             figure
               img.px-md-3(src='@/assets/curso/temas/tema3/fig3.svg', alt='Clasificación de los residuos sólidos')
               figcaption.bg-white.mt-3

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Diagnóstico de los residuos generados',
     descripcionCurso:
-      'En este componente formativo se realizará un diagnóstico de residuos con el fin de caracterizar los residuos que se generan en las actividades de la organización, su manejo actual en cuanto a recolección, almacenamiento y gestión de los residuos,  para identificar problemáticas y soluciones a estas, realizar propuesta para la adecuada minimización de residuos, aprovechamiento, tratamiento y disposición final de estos con el fin de cumplir la normativa,  en favor de un desarrollo sostenible en la organización.',
+      'En este componente formativo se realizará un diagnóstico de residuos con el fin de caracterizar los residuos que se generan en las actividades de la organización, con el fin de cumplir la normativa, en favor de un desarrollo sostenible.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
@@ -261,8 +261,6 @@ export default {
     {
       referencia:
         'ICONTEC. (2009). GTC 24- Gestión Ambiental Residuos sólidos Guía para la separación en la fuente.',
-      link:
-        'http://www.bogotaturismo.gov.co/sites/intranet.bogotaturismo.gov.co/files/GTC%2024%20DE%202009.pdf',
     },
     {
       referencia:
@@ -342,10 +340,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Claudia Patricia Aristizabal',
+          cargo: 'Líder del equipo',
+          centro: 'Dirección General',
+        },
+        {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable ecosistema de producción de RED Santander',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -365,34 +368,28 @@ export default {
         {
           nombre: 'Gloria Esperanza Ortiz Russi',
           cargo: 'Evaluador y diseñador instruccional',
-          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Zenith Chinchilla Ruedas',
           cargo: 'Diseñador Instruccional',
-          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Vilma Perilla',
           cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor pedagógico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura – Regional Santander',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Diseñador y evaluador instruccional',
           centro:
-            'Centro para la Industria de la Comunicación - Gráfica. Regional Distrito Capital.',
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
       ],
     },
@@ -400,38 +397,63 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Blanca Flor Tinoco Torres',
-          cargo: 'Diseño web',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseñador web',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollo front-end',
+          cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Producción audiovisual',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Validación de diseño y contenido',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
     {
-      titulo: 'GESTORES DE REPOSITORIO',
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Zuleidy María Ruiz Torres',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Validación de contenidos accesibles',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },

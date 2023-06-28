@@ -15,9 +15,7 @@
           p.mb-0 Por tanto, es importante realizar el diagnóstico de los residuos en un lugar determinado para así crear estrategias que prevengan y minimicen el impacto de los residuos y no se genere una problemática socio ambiental, aparte de esto en la sociedad existen comunidades de bajos ingresos que viven y se alimentan de los residuos, lo cual también requiere de una gestión socio ambiental.
       .col-md-6(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema1/img.jpg', alt='Imagen decorativa')
-
-    p(data-aos="fade") Para complementar la información se pueden visualizar los siguientes videos:
+          img(src='@/assets/curso/temas/tema1/img.jpg', alt='')
 
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
@@ -26,29 +24,10 @@
           figure
             img.px-3(src='@/assets/curso/temas/tema1/ico-yt.svg', alt='Icono Youtube')
         .col-lg-10.col-md-10.col-12
-          .row
-            .col-lg-12
-              h5.text-white Para profundizar en el tema, se invita a revisar la sección de materiales complementarios, donde encontrará los videos: Puntaje Nacional Chile (4 abril 2013), denominado “Unidades de concentración” y otros objetos de aprendizaje que son de sumo interés para su aprendizaje.
-            .col-lg-6
-              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=TIeU7_yqrpc" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p  #[b Enlace web.] Pinkywingi (2008, enero 19) La isla de las flores (Jorge Furtado) 
-            .col-lg-6
-              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=BLkOZTMRCV0&feature=youtu.be" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p  #[b Enlace web.] Acciona (2018 abril 19) Generación y gestión de residuos – Sostenibilidad/Acciona
+          h5.text-white Para complementar la información se pueden visualizar los videos “La isla de las flores” y “Generación y gestión de residuos”, los cuales se encuentran en el material complementario.
+            
 
-
-
-
-    h3.subt.text-white.mb-3(data-aos="fade") Conceptos generales
     p.mb-4(data-aos="fade") En la aplicación del presente componente formativo se tendrán en cuenta las siguientes definiciones establecidas en la normatividad vigente:
-
-    h3.subt.text-white.mb-3(data-aos="fade") Definiciones
 
     .row.align-items-center.mb-4
       .col-md-8.mb-4(data-aos="fade-right")
@@ -67,13 +46,13 @@
             p.mb-0 Son aquellos producidos por el generador en desarrollo de su actividad, que no presentan ninguna de las características de peligrosidad (Ministerio de salud y protección social, 2016).
       .col-md-4.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema2/img1.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema2/img1.jpg', alt='')
 
 
     .row.align-items-center.mb-4
       .col-md-5.mb-4(data-aos="fade-right")
         figure 
-          img(src='@/assets/curso/temas/tema2/img2.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema2/img2.jpg', alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         LineaTiempoD.linea-blue
           .row(numero="7" titulo="Residuos especiales")
@@ -92,10 +71,12 @@
             p.mb-0 Persona que produce residuos sólidos y es usuario del servicio (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3).
 
 
+    p.mb-4(data-aos="fade") Teniendo claros los conceptos anteriores, conozcamos cuál es la jerarquía en la gestión de residuos.
+
     .row.justify-content-center.tarjeta.bg-gray.py-5.mb-4(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-4
-          p.mb-0 #[b Figura 1] Jerarquía en la gestión de residuos
+          p.mb-0 #[b Figura 1.] Jerarquía en la gestión de residuos
         figure.mb-3
           img(src='@/assets/curso/temas/tema2/fig1.svg', alt='Texto que describa la imagen')
         figcaption.bg-white 

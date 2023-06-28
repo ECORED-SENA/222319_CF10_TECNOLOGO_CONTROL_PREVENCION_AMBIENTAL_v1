@@ -9,7 +9,7 @@
 
     
     figure.mb-4(data-aos="fade")
-      img(src='@/assets/curso/temas/tema7/img.png', alt='Imagen decorativa')
+      img(src='@/assets/curso/temas/tema7/img.png', alt='')
 
     p.mb-5(data-aos="fade") Se debe establecer la composición, cantidad, características y calidad de los residuos especiales, peligrosos y no peligrosos que se generan en la organización, por medio de una caracterización y aforo de acuerdo con alguna de las metodologías existentes para este fin.   
 
@@ -19,7 +19,7 @@
 
     p.mb-4 Mediante la siguiente tabla, se tendrá noción de los residuos que comúnmente se generan y se orienta sobre qué se puede hacer con ellos.
 
-    .row.justify-content-center
+    //.row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-secundario.mb-4(data-aos="fade")
           p.mb-0 #[b Tabla 1] Tipos de residuos
@@ -79,25 +79,25 @@
         .bg-green4.tarjeta.p-4.h-366.d-flex.align-items-center
           .row.justify-content-center
             .col-md-5
-              img(src='@/assets/curso/temas/tema7/tarj-ico1.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema7/tarj-ico1.svg' alt='')
             p.text-center La adopción de buenas prácticas, la optimización de los procesos, el cambio a tecnologías limpias, la sustitución de materias primas y la modificación de productos.     
       .col-md-3.mb-4
         .bg-green4.tarjeta.p-4.h-366.d-flex.align-items-center
           .row.justify-content-center
             .col-md-5
-              img(src='@/assets/curso/temas/tema7/tarj-ico2.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema7/tarj-ico2.svg' alt='')
             p.text-center La reutilización de elementos que se generan en los procesos de la organización.
       .col-md-3.mb-4
         .bg-green4.tarjeta.p-4.h-366.d-flex.align-items-center
           .row.justify-content-center
             .col-md-5
-              img(src='@/assets/curso/temas/tema7/tarj-ico3.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema7/tarj-ico3.svg' alt='')
             p.text-center Igualmente, el reciclaje de materiales, aprovechamiento de subproductos utilizándolos como materias primas dentro del mismo proceso productivo o dentro de otro.
       .col-md-3.mb-4
         .bg-green4.tarjeta.p-4.h-366.d-flex.align-items-center
           .row.justify-content-center
             .col-md-5
-              img(src='@/assets/curso/temas/tema7/tarj-ico4.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema7/tarj-ico4.svg' alt='')
             p.text-center La utilización de una menor cantidad de empaques, solicitando al proveedor la entrega de productos sin envolturas innecesarias, el empleo de elementos que sean susceptibles de aprovechamiento para reemplazar el uso de aquellos que no lo son.
 
 
@@ -106,9 +106,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-2.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema7/ico-7-3.svg', alt='Icono decorativo')
+          img(src='@/assets/curso/temas/tema7/ico-7-3.svg', alt='')
       .col-md-10.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-primario
+        ul.lista-ul--color.color-primario.fa-ul
           li 
             i.fas.fa-check
             | Tipo de residuos que se separan.
@@ -135,19 +135,19 @@
               p.bg-green5.p-4 El diagnóstico permite definir el tipo y cantidad de recipientes que se requieren para la adecuada separación de los residuos en todas las áreas de la organización. Los recipientes utilizados preferiblemente deben cumplir con el color correspondiente a la clase de residuos que se va a depositar en ellos y que se denomina Código de Colores. Además, deben ser visibles y estar ubicados estratégicamente en las instalaciones de la organización; en caso de que los recipientes que posee la organización no cumplan con el Código de Colores pueden pintarse, emplear cintas adhesivas visibles o utilizar el fondo del rótulo para establecer el color correspondiente al tipo de residuo mientras realiza la correspondiente compra del recipiente. 
             .col-md-6.mb-4(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/temas/tema7/img2.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema7/img2.png', alt='')
 
           .row.align-items-center  
             .col-md-5.mb-4(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/temas/tema7/img3.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema7/img3.png', alt='')
             .col-md-7.mb-4(data-aos="fade-left")
               p Para cumplir con el Código de Colores no se requiere de bolsas del mismo color del recipiente, estas pueden ser reemplazadas por bolsas transparentes o de color, teniendo cuidado en el momento de recolección selectiva de cada residuo. 
               p A partir del 1 de enero de 2021, los municipios y distritos deberán implementar el código de colores para la presentación de los residuos sólidos en bolsas u otros recipientes, en el marco de los programas de aprovechamiento de residuos del servicio público de aseo, de acuerdo con lo establecido en los Planes de Gestión Integral de Residuos Sólidos (PGIRS).
               
           .col-md-10.mb-4
             .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-              p.mb-0 #[b Figura 4] Código de colores obligatorio a partir del año 2021 para entregar al servicio público de aseo en todo el territorio nacional
+              p.mb-0 #[b Figura 4.] Código de colores obligatorio a partir del año 2021 para entregar al servicio público de aseo en todo el territorio nacional
             figure(data-aos="fade-down")
               img(src='@/assets/curso/temas/tema7/figura6.png', alt='Código de colores obligatorio a partir del año 2021 para entregar al servicio público de aseo en todo el territorio nacional')
               figcaption.bg-white
@@ -161,7 +161,7 @@
     p.mb-5(data-aos="fade") Para las entidades de salud si es obligatorio el código de colores que delegue el Manual para la Gestión Integral de Residuos Generados en la Atención en Salud y otras actividades, y se dictan otras disposiciones:
 
     .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-      p.mb-0 #[b Figura 5] Código de colores propuesto por la GTC 24
+      p.mb-0 #[b Figura 5.] Código de colores propuesto por la GTC 24
     
     figure(data-aos="fade-down").mb-5
       img(src='@/assets/curso/temas/tema7/figura7.png', alt='Código de colores propuesto por la GTC 24')
@@ -177,10 +177,10 @@
           .row.align-items-center  
             .col-md-4.mb-4(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/temas/tema7/img4.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema7/img4.png', alt='')
             .col-md-8.mb-4(data-aos="fade-left")
               p.mb-4 Frecuentemente se emplean bolsas, contenedores, canecas, cajas, entre otros. Sin embargo, según la norma GTC 24- Gestión Ambiental Residuos sólidos Guía para la separación en la fuente del 2009, se debe tener en cuenta lo siguiente, para su selección:
-              ul.lista-ul--color
+              ul.lista-ul--color.fa-ul
                 li.mb-4
                   i.fas.fa-check
                   | A nivel doméstico se espera que los recipientes sean de material impermeable, liviano y resistente, de fácil cargue, de tal forma que facilite su transporte y se reduzca el impacto sobre el ambiente y la salud humana.
@@ -202,9 +202,9 @@
 
           .col-md-6
             .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-              p.mb-0 #[b Figura 6] Símbolo de Infecciosos
+              p.mb-0 #[b Figura 6.] Recipiente para residuos infecciosos
             figure(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema7/figura8.png', alt='Símbolo de Infecciosos')
+              img(src='@/assets/curso/temas/tema7/figura8.png', alt='Recipiente para residuos infecciosos')
 
           p Los recipientes para residuos peligrosos obligatoriamente deben tener tapa, con buen ajuste, bordes redondeados y boca ancha para facilitar su vaciado. Construidos en forma tal que, estando cerrados o tapados, no permitan la entrada de agua, insectos o roedores, ni el escape de líquidos por sus paredes o por el fondo.
           p Los residuos reciclables usan el logo de reciclaje en los recipientes y para ordinarios usan algunas veces el logo circular, pero no es necesario el logo en ordinarios (Alcaldía Santiago de Cali,  2015).
@@ -231,7 +231,7 @@
           .row.justify-content-center.align-items-center
             .col-md-7.mb-4(data-aos="fade-right")
               p Los recipientes para residuos cortopunzantes son desechables y deben tener las siguientes características:
-              ul.lista-ul--color.ps-2
+              ul.lista-ul--color.ps-2.fa-ul
                 li
                   i.fas.fa-check
                   | Rígidos, en polipropileno de alta densidad u otro polímero que no contenga P.V.C. 
@@ -249,7 +249,7 @@
                   | Ser resistentes, desechables y de paredes gruesa.
             .col-md-5.mb-4(data-aos="fade-left")
               .titulo-sexto.color-secundario(data-aos="fade")
-                p.mb-0 #[b Figura 7] Recipiente rígido para corto punzantes
+                p.mb-0 #[b Figura 7.] Recipiente rígido para corto punzantes
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema7/figura10.png', alt='Recipiente rígido para corto punzantes')
 
@@ -267,17 +267,16 @@
         p.bg-green.p-4 El etiquetado tiene como objetivo principal identificar el residuo peligroso y reconocer la naturaleza del peligro que representa, alertando a las personas involucradas en el transporte o manejo sobre las medidas de precaución y prohibiciones. La etiqueta que se utilizara para la identificación de los residuos puede ser de diferentes estilos. (Universidad de Cádiz, 2016)
 
 
-    h3.subt.text-white.mb-4(data-aos="fade") Norma NFPA (National Fire Protection Association)
-    p.mb-4(data-aos="fade") En residuos peligrosos pueden usarse diferentes tipos de pictogramas como el del rombo NFPA, ver figura 12.
+    h3.subt.text-white.mb-4(data-aos="fade") Norma NFPA 
+      em (National Fire Protection Association)
+    p.mb-4(data-aos="fade") En residuos peligrosos pueden usarse diferentes tipos de pictogramas como el del rombo NFPA, ver figura.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-4
-        .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 12] NFPA
         figure
           img.px-md-3(src='@/assets/curso/temas/tema7/figura12.png', alt='NFPA')
 
 
-    h3.subt.text-white.mb-4(data-aos="fade") Sistema Globalmente Armonizado de clasificación y etiquetado de productos -SGA
+    h3.subt.text-white.mb-4(data-aos="fade") Sistema Globalmente Armonizado de clasificación y etiquetado de productos - SGA
     p.mb-4(data-aos="fade") Pictogramas como los del sistema globalmente armonizado.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-4
@@ -320,7 +319,7 @@
                 td 
                   img.m-auto(src='@/assets/curso/temas/tema5/tabla-img.png', alt='EXPLOSIVO' style="width:90px;")
                 td  
-                  ol.lista-ol
+                  ol.lista-ol.fa-ul
                     li
                       span 1.1
                       | Sustancia y Objetos que presentan un riesgo de Explosión en masa.
@@ -344,7 +343,7 @@
                 td 
                   img.m-auto(src='@/assets/curso/temas/tema5/tabla-img2.png', alt='GASES' style="width:90px;")
                 td  
-                  ol.lista-ol
+                  ol.lista-ol.fa-ul
                     li
                       span 2.1
                       | Gases inflamables.
@@ -364,7 +363,7 @@
                 td 
                   img.m-auto(src='@/assets/curso/temas/tema5/tabla-img4.png', alt='SÓLIDOS INFLAMABLES' style="width:90px;")
                 td  
-                  ol.lista-ol
+                  ol.lista-ol.fa-ul
                     li
                       span 4.1
                       | Sólido Inflamable, sustancias con reacción espontánea y sólidos explosivos insensibilizados.
@@ -379,7 +378,7 @@
                 td 
                   img.m-auto(src='@/assets/curso/temas/tema5/tabla-img5.png', alt='OXIDANTES Y PERÓXIDOS ORGÁNICOS' style="width:90px;")
                 td  
-                  ol.lista-ol
+                  ol.lista-ol.fa-ul
                     li
                       span 5.1
                       | Sustancias comburentes.
@@ -391,7 +390,7 @@
                 td 
                   img.m-auto(src='@/assets/curso/temas/tema5/tabla-img6.png', alt='SUSTANCIA TOXICAS' style="width:90px;")
                 td  
-                  ol.lista-ol
+                  ol.lista-ol.fa-ul
                     li
                       span 6.1
                       | Sustancias Tóxicas
@@ -421,7 +420,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 8] Rotulado de la universidad los andes ejemplo de residuos peligrosos
+          p.mb-0 #[b Figura 8.] Rotulado de la universidad los andes ejemplo de residuos peligrosos
         figure
           img(src='@/assets/curso/temas/tema7/figura17.svg', alt='Rotulado de la universidad los andes ejemplo de residuos peligrosos')
           figcaption.bg-gray

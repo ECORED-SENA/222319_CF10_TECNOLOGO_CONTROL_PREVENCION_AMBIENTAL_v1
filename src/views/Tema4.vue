@@ -11,7 +11,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema5/img.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img.png', alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         p Para diseñar y poner en funcionamiento el Manejo Integral de Residuos, deben tenerse en cuenta las actividades que se desarrollan en el sitio de trabajo, de forma real y clara, con propuestas de mejoramiento continuo de los procesos y orientado a la prevención y a la minimización de riesgos para la salud y el ambiente. El compromiso debe responder claramente a las preguntas qué, cómo, cuándo, dónde, por qué, para qué y con quién.
         p Como se ve, la estructura que se plantea es la de minimizar la generación y maximizar los aprovechamientos, de tal manera que siempre se disponga de la menor cantidad de residuos en los rellenos sanitarios, como primer paso del manejo integral de residuos se requiere realizar un diagnóstico del estado actual de la gestión de residuos en la organización.
@@ -26,12 +26,12 @@
               p El grupo GAGAS es obligatorio para entidades de salud, pero se propone crearlo para las organizaciones para un mejor manejo de la gestión ambiental, crear un Grupo Administrativo de Gestión Ambiental y Sanitaria (GAGAS) que garantice la correcta formulación e implementación del Plan de Gestión Integral de Residuos (PGIRS).  Por tanto, las personas que integran el grupo serán el representante legal o su similar y demás personas, conforme a las condiciones específicas del establecimiento entre los cuales puede ser auxiliares, operarios, entre otros; que laboran y son los encargados de dar cumplimiento al Compromiso Institucional, y los responsables del plan en todos sus componentes. Para la estructura funcional se tendrá en cuenta la respectiva jerarquía que exista en el establecimiento.
             .col-md-5.mb-4(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/temas/tema5/img2.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema5/img2.png', alt='')
           
           .row.align-items-center
             .col-md-3.mb-4(data-aos="fade-right") 
               figure
-                img(src='@/assets/curso/temas/tema5/img3.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema5/img3.png', alt='')
             .col-md-9.mb-4(data-aos="fade-left")    
               p Dentro de las funciones del GAGAS se encuentran:
               .row.align-items-center
@@ -72,7 +72,7 @@
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 3] Esquema de elaboración de un diagnóstico ambiental de residuos
+          p.mb-0 #[b Figura 3.] Esquema de elaboración de un diagnóstico ambiental de residuos
         figure.mb-3
           img(src='@/assets/curso/temas/tema6/fig1.svg', alt='Esquema de elaboración de un diagnóstico ambiental de residuos')
         figcaption 

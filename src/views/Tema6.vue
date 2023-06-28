@@ -13,9 +13,9 @@
         p Las características de residuos sólidos y los volúmenes de producción varían geográficamente, en función de los hábitos y cultura de la población, sus condiciones socioeconómicas, las condiciones climáticas, así como de la disponibilidad y acceso a materias primas. De estas variaciones se deriva la importancia de los estudios puntuales de caracterización de residuos sólidos, donde se proyecte su gestión exitosa, para de este modo obtener información confiable sobre la cantidad y composición de los materiales, así como de sus opciones de aprovechamiento (Runfola, J., & Gallardo, A., 2009). Un procedimiento de campo utilizado para determinar la cantidad y composición de residuos sólidos en una región es el método del cuarteo, ver figura, en términos generales este procedimiento requiere de la descarga y el análisis de una cantidad de residuos en una zona específica (Hidrolab, 2018).
       .col-md-4(data-aos="fade-left")
         .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-          p.mb-0 #[b Figura 21] Cuarteo de residuos
+          p.mb-0 #[b Figura 9.] Cuarteo de residuos
         figure
-          img(src='@/assets/curso/temas/tema8/img.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema8/img.png', alt='a')
           figcaption.bg-gray
             p.mb-0 Nota. Tomado de Caracterización fisicoquímica residuos sólidos domiciliarios del municipio de Tibasosa (2018).
 
@@ -32,12 +32,12 @@
         p A continuación, se recomiendan algunos elementos de tipo operativo para el desarrollo de la caracterización
       .col-md-6.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema8/img2.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema8/img2.png', alt='')
 
     .row.justify-content-center.align-items-center
       .col-md-4.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema8/img3.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema8/img3.png', alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-gray")
           .row.justify-content-center(titulo="Consecución de información")
@@ -86,15 +86,15 @@
               p Repetir operación hasta obtener el volumen deseado.
             .col-md-5.mb-4(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/temas/tema8/img5.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema8/img5.png', alt='')
 
           .row.justify-content-center.align-items-center.fondo-blue3.py-4.mb-4
             .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/temas/tema8/img6.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema8/img6.png', alt='')
             .col-md-7.mb-4.mb-md-0(data-aos="fade-left")
               p Uso de los siguientes materiales:
-              ul.lista-ul--color.color-sistema-texto.ps-2
+              ul.lista-ul--color.color-sistema-texto.ps-2.fa-ul
                 li.mb-0
                   i.fas.fa-check
                   | 1 balanza. En este caso se utilizó una balanza digital con capacidad máxima de 35 Kg. 
@@ -135,14 +135,14 @@
         p Para determinar el porcentaje promedio de cada componente, se efectúa un promedio simple, es decir sumando los porcentajes de todos los días de cada componente y dividiéndolo entre los siete días de la semana. 
       .col-md-5.mb-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema8/img7.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema8/img7.png', alt='')
 
     p.mb-4(data-aos="fade") Prueba de densidad de los residuos sólidos, en el momento que se está realizando el primer cuarteo se aprovecha para realizar el siguiente cálculo que nos permitirá conocer el peso de los residuos que caben en un metro cúbico, se determina el volumen del tonel utilizado, aplicando la siguiente fórmula:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 10] Prueba de densidad de residuos
+          p.mb-0 #[b Figura 10.] Prueba de densidad de residuos
         figure
           img.mb-3(src='@/assets/curso/temas/tema8/fig24.png', alt='Prueba de densidad de residuos')
          
@@ -156,13 +156,13 @@
           .row.justify-content-center.align-items-center
             .col-md-4(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/temas/tema8/img8.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema8/img8.png', alt='')
             .col-md-8(data-aos="fade-left")
               p Nuevamente se agregan los residuos sólidos hasta llegar a la capacidad total del tonel, teniendo cuidado de no presionar al colocarlos; esto con el fin de no alterar el peso volumétrico que se pretende determinar. 
               .bg-white.p-4.mb-4
                 .row.justify-content-center
                   .col-md-12
-                    p Se sube el tonel en la pesa y se anota el peso registrado (tener precaución de no considerar el peso del tonel).El dato del peso de los residuos dividido por el volumen del tonel nos dará la densidad de los residuos.
+                    p Se sube el tonel en la pesa y se anota el peso registrado (tener precaución de no considerar el peso del tonel). El dato del peso de los residuos dividido por el volumen del tonel nos dará la densidad de los residuos.
                   .col-md-6
                     figure
                       img(src='@/assets/curso/temas/tema8/form2.svg', alt='Formula')
@@ -174,7 +174,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Tabla 2] Formato para el registro de residuos
+          p.mb-0 #[b Tabla 2.] Formato para el registro de residuos
         figure
           img.mb-1(src='@/assets/curso/temas/tema8/tabla6.svg', alt='Formato para el registro de residuos')
           
@@ -185,7 +185,7 @@
         p Limpieza del sitio utilizado. Una vez se termina la caracterización se procede a lavar y desinfectar el lugar de trabajo utilizado.
       .col-md-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema8/img9.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema8/img9.png', alt='')
 
 
     separador
@@ -203,7 +203,7 @@
               img.mb-3(src='@/assets/curso/temas/tema8/form3.svg', alt='Formula')
       .col-md-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema8/img10.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema8/img10.png', alt='')
 
 
     separador
@@ -214,7 +214,7 @@
     .row.justify-content-center.align-items-center
       .col-md-5.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema8/img11.png', alt='Imagen decorativa')  
+          img(src='@/assets/curso/temas/tema8/img11.png', alt='')  
       .col-md-7.mb-4(data-aos="fade-left")
         p Cuando se conocen cuáles son los procesos que generan residuos peligrosos en la organización, así como los tipos de residuos peligrosos generados, se debe dar inicio al proceso de cuantificación. Existe una forma de hacerlo que garantiza que se está tomando un promedio real y que incluye un año de mediciones: mido y registro la generación de cada tipo de residuo durante seis meses, luego tomo estas mediciones y las promedio. Para el séptimo mes, tomo en cuenta las mediciones desde el segundo mes hasta el séptimo y las promedio, así, para el octavo tomo en cuenta desde el tercer mes etc., finalmente tomo los seis últimos promedios, los sumo y luego divido por seis meses, este resultado final es el que llamo la media móvil de los últimos seis meses. Este valor es el que sirve para saber si se es un gran, mediano o pequeño generador de respel.
         
