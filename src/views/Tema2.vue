@@ -43,7 +43,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10
         figure
-          img.px-md-3(src='@/assets/curso/temas/tema3/fig2.svg', alt='Tabla criterios de peligrosidad')
+          img.px-md-3(src='@/assets/curso/temas/tema3/fig2.svg', alt='Residuos peligrosos Características: Corrosivo, Reactivo, Explosivo, Tóxico, Inflamable, Infeccioso, Radiactivo.')
           figcaption.bg-gray
             p.mb-0 Nota. Manual para el manejo integral de residuos sólidos en el valle de aburra. Área metropolitana del valle de aburra (2016). 
 
@@ -199,7 +199,7 @@
             .titulo-sexto.color-secundario
               p.mb-0 #[b Figura 2.] Clasificación de los residuos sólidos
             figure
-              img.px-md-3(src='@/assets/curso/temas/tema3/fig3.svg', alt='Clasificación de los residuos sólidos')
+              img.px-md-3(src='@/assets/curso/temas/tema3/fig3.svg', alt='La imagen presenta la clasificación de residuos sólidos, la cual se divide en: No peligrosos: aprovechables y ordinarios e inertes. Peligrosos: químico y riesgo biológico.')
               figcaption.bg-white.mt-3
                 p.mb-0 Nota. Clasificación de residuos sólidos, SENA (2020).
 

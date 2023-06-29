@@ -78,7 +78,7 @@
         .titulo-sexto.color-secundario.mb-4
           p.mb-0 #[b Figura 1.] Jerarquía en la gestión de residuos
         figure.mb-3
-          img(src='@/assets/curso/temas/tema2/fig1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/fig1.svg', alt='La imagen presenta la jerarquía en la gestión de residuos, siendo el siguiente el orden: generación de residuos sólidos, separación de residuos sólidos, almacenamiento, recolección y transporte, y por último, la disposición final.')
         figcaption.bg-white 
           p.mb-0 Nota. Guía para el manejo integral de residuos. Universidad Pontificia Bolivariana y Área metropolitana del valle de aburra (2008).
 

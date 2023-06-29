@@ -74,7 +74,7 @@
         .titulo-sexto.color-secundario
           p.mb-0 #[b Figura 3.] Esquema de elaboración de un diagnóstico ambiental de residuos
         figure.mb-3
-          img(src='@/assets/curso/temas/tema6/fig1.svg', alt='Esquema de elaboración de un diagnóstico ambiental de residuos')
+          img(src='@/assets/curso/temas/tema6/fig1.svg', alt='La imagen presenta el esquema de elaboración de un diagnóstico ambiental de residuos, el cual comienza por elegir el grupo de gestión ambiental y luego realizar el diagnóstico, donde se identifican los recipientes de la organización, se realiza la caracterización física de los residuos sólidos, se reconoce la forma en que se recogen los residuos sólidos en la organización, se reconocen los sitios de almacenamiento temporal y final en la organización y finalmente se reconoce el manejo externo de los residuos sólidos de la organización.')
         figcaption 
           P.mb-0 Nota. Tomado y adaptado de Esquema para la elaboración del manejo integral de residuos (2008).
 

@@ -132,52 +132,32 @@ export default {
     {
       tema: 'La isla de las flores',
       referencia:
-        'Furtado, J. (2008). La isla de las flores. [video]. Youtube.',
+        'Furtado, J. (2008). <em>La isla de las flores</em>. [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=TIeU7_yqrpc',
     },
     {
       tema: 'Generación y gestión de residuos',
       referencia:
-        'Acciona (2018) Generación y gestión de residuos – Sostenibilidad/Acciona. [video]. Youtube. ',
+        'Acciona (2018). <em>Generación y gestión de residuos – Sostenibilidad/Acciona</em>. [video]. Youtube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=BLkOZTMRCV0&feature=youtu.be',
     },
-    {
-      tema: 'Proceso de caracterización de residuos sólidos',
-      referencia:
-        'SINTI TV (2019). Proceso de caracterización de residuos sólidos. [video]. Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=-a4TuCzySxY',
-    },
-    {
-      tema: 'Matriz requisitos legales actualizada año 2020',
-      referencia: '(2020) Matriz requisitos legales actualizada año 2020.',
-      tipo: 'Matriz legal en Excel',
-      link:
-        'https://drive.google.com/drive/folders/1hs1KIN9lfQvRMnV5rqemhfUgtfaDeHdo',
-    },
+
     {
       tema: 'Conoce la nueva resolución para separar los residuos en Colombia',
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible (2020) Conoce la nueva resolución para separar los residuos en Colombia. [video]. Youtube. ',
+        'Ministerio de Ambiente y Desarrollo Sostenible (2020). <em>Conoce la nueva resolución para separar los residuos en Colombia</em>. [video]. Youtube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=h-j9Y_UHwxQ',
     },
     {
       tema: 'Norma técnica colombiana NTC1692',
       referencia:
-        'ICONTEC (2005) Norma técnica colombiana NTC1692 Transporte de mercancías peligrosas definiciones, clasificación, marcado, etiquetado y rotulado.',
+        'ICONTEC (2005). <em>Norma técnica colombiana NTC1692 Transporte de mercancías peligrosas definiciones, clasificación, marcado, etiquetado y rotulado.</em>',
       tipo: 'Norma técnica',
       link:
         'https://web.mintransporte.gov.co/consultas/mercapeli/Reglamento/Anexos/NTC1692.pdf',
-    },
-    {
-      tema: 'Manejo residuos sólidos',
-      referencia:
-        'SINTI TV (2019) Proceso de caracterización de residuos sólidos. [video]. Youtube. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=-a4TuCzySxY',
     },
   ],
   glosario: [
@@ -293,7 +273,7 @@ export default {
       referencia:
         'Minambiente (2017). Política Nacional integral de residuos de aparatos electrónicos.',
       link:
-        'https://www.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/pdf/e-book_rae_/assets/RAEE_baja.pdf',
+        'https://archivo.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/pdf/e-book_rae_/contenido_4_1.html',
     },
     {
       referencia:
@@ -324,15 +304,8 @@ export default {
     },
     {
       referencia:
-        'Universidad Industrial de Santander. (2013). Plan de gestión Integral de Residuos.',
-      link:
-        'https://www.uis.edu.co/webUIS/es/gestionAmbiental/documentos/capacitaciones/Manejo%20de%20Productos%20y%20Residuos%20Quimicos.pdf',
-    },
-    {
-      referencia:
-        'Universidad Industrial de Santander. (2013). Plan de gestión Integral de Residuos.',
-      link:
-        'https://www.uis.edu.co/webUIS/es/gestionAmbiental/documentos/capacitaciones/Manejo%20de%20Productos%20y%20Residuos%20Quimicos.pdf',
+        'Universidad Industrial de Santander. (2013). Sistema de Gestión Ambiental.',
+      link: 'https://uis.edu.co/uis-sistema-gestion-ambiental-es/',
     },
   ],
   creditos: [
