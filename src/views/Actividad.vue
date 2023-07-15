@@ -7,15 +7,15 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="falso verdadero")
+            img(src="@/assets/template/arrastrar-terminos.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Bases Conceptuales
-        p.mb-4 Reconocer Conceptos Básicos de Residuos
+          h2 Bases conceptuales
+        p.mb-4 Reforzar los conceptos básicos sobre los residuos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso y verdadero
+              p.fw-bold.mb-0 Relacionar terminos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
