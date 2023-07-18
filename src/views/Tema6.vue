@@ -174,9 +174,9 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Tabla 2.] Formato para el registro de residuos
+          p.mb-0 #[b Tabla 1.] Formato para el registro de residuos
         figure
-          img.mb-1(src='@/assets/curso/temas/tema8/tabla6.svg', alt='Formato para el registro de residuos')
+          img.mb-1(src='@/assets/curso/temas/tema8/tabla6.svg', alt='Formato para el registro de residuos. Centro generador: Operario: Hora: Fecha: Periodo de acumulación de residuos: De: Hasta: Tipo de residuo. Centro generador (Kg/día o periodo de caracterización) Total 1 2 3 … N Total')
           
 
     .row.justify-content-center.align-items-center
@@ -200,7 +200,7 @@
         .row.justify-content-center
           .col-md-8
             figure
-              img.mb-3(src='@/assets/curso/temas/tema8/form3.svg', alt='Formula')
+              img.mb-3(src='@/assets/curso/temas/tema8/form3.svg', alt='PPC. Peso total de las muestras (libras o kilos) Número total de personas de la muestra * 1/7 días')
       .col-md-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema8/img10.png', alt='')

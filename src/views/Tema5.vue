@@ -11,7 +11,7 @@
     figure.mb-4(data-aos="fade")
       img(src='@/assets/curso/temas/tema7/img.png', alt='')
 
-    p.mb-5(data-aos="fade") Se debe establecer la composición, cantidad, características y calidad de los residuos especiales, peligrosos y no peligrosos que se generan en la organización, por medio de una caracterización y aforo de acuerdo con alguna de las metodologías existentes para este fin.   
+    p.mb-5(data-aos="fade") Se debe establecer la composición, cantidad, características y calidad de los residuos especiales, peligrosos y no peligrosos que se generan en la organización, por medio de una caracterización y aforo de acuerdo con alguna de las metodologías existentes para este fin.
 
     
 
