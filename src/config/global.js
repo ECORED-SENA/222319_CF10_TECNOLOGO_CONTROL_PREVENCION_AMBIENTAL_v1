@@ -258,9 +258,9 @@ export default {
     },
     {
       referencia:
-        'Instituto Nacional de Tecnología y Cambio Climático. (2007). Peligro y riesgo de los residuos. ',
+        'Instituto Nacional de Ecología y Cambio Climático. (2007). Impacto, adaptación y vulnerabilidad. ',
       link:
-        'http://www2.inecc.gob.mx/publicaciones2/libros/139/peligro_y_riesgo.html',
+        'https://www.ipcc.ch/site/assets/uploads/2020/02/ar4-wg2-sum-vol-sp.pdf',
     },
     {
       referencia:
@@ -272,11 +272,11 @@ export default {
       referencia:
         'Minambiente. (2020). Gobierno unifica el código de colores para la separación de residuos en la fuente a nivel nacional. ',
       link:
-        'https://www.minambiente.gov.co/index.php/noticias/4595-gobierno-unifica-el-codigo-de-colores-para-la-separacion-de-residuos-en-la-fuente-a-nivel-nacional',
+        'https://archivo.minambiente.gov.co/index.php/noticias-minambiente/4595-gobierno-unifica-el-codigo-de-colores-para-la-separacion-de-residuos-en-la-fuente-a-nivel-nacional#:~:text=Los%20colores%20para%20la%20presentaci%C3%B3n,negro%20(residuos%20no%20aprovechables)',
     },
     {
       referencia:
-        'Minambiente (2017). Política Nacional integral de residuos de aparatos electrónicos.',
+        'Minambiente (2017). Política Nacional integral de residuos de aparatos electrónicos. ',
       link:
         'https://archivo.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/pdf/e-book_rae_/contenido_4_1.html',
     },
@@ -287,13 +287,13 @@ export default {
     {
       referencia:
         'Ministerio de ambiente y recursos naturales Guatemala. (2018). Guía para elaborar estudios de caracterización de residuos sólidos comunes. Gráfico método de cuarteo de residuos sólidos. ',
-      link: 'https://www.marn.gob.gt/Multimedios/13193.pdf',
+      link:
+        'https://reciclalos.com/assets/downloads/1634839935-Guia_Caracterizaci%C3%B3n_de_Residuos_S%C3%B3lidos_Comunes.pdf',
     },
     {
       referencia:
         'Secretaria Distrital de Ambiente (2008). Gestión Integral de residuos peligrosos. ',
-      link:
-        'http://ambientebogota.gov.co/documents/10157/73753/Gesti%C3%B3n+Integral+de+Residuos+Peligrosos.pdf',
+      link: 'https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3707',
     },
     {
       referencia:
