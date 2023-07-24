@@ -11,7 +11,7 @@
     p.mb-4(data-aos="fade") En el diagnóstico se debe establecer información sobre el funcionamiento de la organización y la descripción general del proceso productivo. Los pasos son:
 
     .titulo-sexto.color-secundario.mb-4
-      p.mb-0 #[b Tabla 2.] Pasos para desarrollar el diagnóstico de la organización
+      p.mb-0 #[b Tabla 3.] Pasos para desarrollar el diagnóstico de la organización
 
     .tabla-a.tema13.mb-4(data-aos="fade-down")
       table

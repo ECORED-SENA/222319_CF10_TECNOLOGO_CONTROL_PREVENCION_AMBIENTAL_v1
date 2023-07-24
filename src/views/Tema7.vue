@@ -21,7 +21,7 @@
             | Tiene definidas rutas de recolección.
           li
             i.fas.fa-check
-            | Establece horarios y frecencias de recolección.
+            | Establece horarios y frecuencias de recolección.
           li
             i.fas.fa-check
             | Realiza la recolección selectiva de los residuos en los puntos de generación.
@@ -66,7 +66,7 @@
             | La unidad de almacenamiento evita el acceso y proliferación de animales domésticos, roedores y otras clases de vectores.
           li.mb-1
             i.fas.fa-check
-            | El sitio no cusa molestias e impactos a la comunidad.
+            | El sitio no causa molestias e impactos a la comunidad.
           li.mb-1
             i.fas.fa-check
             | Cuenta con recipientes o cajas de almacenamiento para realizar su adecuada presentación.

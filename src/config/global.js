@@ -71,7 +71,7 @@ export default {
           },
           {
             numero: '6.3',
-            titulo: 'Producción per cápita (PPC)',
+            titulo: 'Caracterización de residuos peligrosos media móvil',
             hash: 't_6_3',
           },
         ],
@@ -336,12 +336,12 @@ export default {
         {
           nombre: 'Diana Carolina Triana Guarnizo',
           cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
           nombre: 'Juan Carlos Cárdenas Sánchez',
           cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
           nombre: 'Gloria Esperanza Ortiz Russi',

@@ -12,7 +12,7 @@
     .row.align-items-center.mb-5
       .col-lg-6(data-aos="fade-right")
         .cajon.color-secundario.bg-green.p-4.mb-4.mb-md-0
-          p Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos la temática relacionada con el el diagnóstico de los residuos generados. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+          p Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos la temática relacionada con el diagnóstico de los residuos generados. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
       .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/intro/img.png' alt='')

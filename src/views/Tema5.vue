@@ -147,7 +147,7 @@
               
           .col-md-10.mb-4
             .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-              p.mb-0 #[b Figura 4.] Código de colores obligatorio a partir del año 2021 para entregar al servicio público de aseo en todo el territorio nacional
+              p.mb-0 #[b Figura 5.] Código de colores obligatorio a partir del año 2021 para entregar al servicio público de aseo en todo el territorio nacional
             figure(data-aos="fade-down")
               img(src='@/assets/curso/temas/tema7/figura6.png', alt='Código de colores obligatorio a partir del año 2021 para entregar al servicio público de aseo en todo el territorio nacional')
               figcaption.bg-white
@@ -161,7 +161,7 @@
     p.mb-5(data-aos="fade") Para las entidades de salud si es obligatorio el código de colores que delegue el Manual para la Gestión Integral de Residuos Generados en la Atención en Salud y otras actividades, y se dictan otras disposiciones:
 
     .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-      p.mb-0 #[b Figura 5.] Código de colores propuesto por la GTC 24
+      p.mb-0 #[b Figura 6.] Código de colores propuesto por la GTC 24
     
     figure(data-aos="fade-down").mb-5
       img(src='@/assets/curso/temas/tema7/figura7.png', alt='Código de colores propuesto por la GTC 24')
@@ -202,7 +202,7 @@
 
           .col-md-6
             .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-              p.mb-0 #[b Figura 6.] Recipiente para residuos infecciosos
+              p.mb-0 #[b Figura 7.] Recipiente para residuos infecciosos
             figure(data-aos="fade-down")
               img(src='@/assets/curso/temas/tema7/figura8.png', alt='Recipiente para residuos infecciosos')
 
@@ -246,10 +246,10 @@
                   | Livianos y de capacidad no mayor a 2 litros.
                 li
                   i.fas.fa-check
-                  | Ser resistentes, desechables y de paredes gruesa.
+                  | Ser resistentes, desechables y de paredes gruesas.
             .col-md-5.mb-4(data-aos="fade-left")
               .titulo-sexto.color-secundario(data-aos="fade")
-                p.mb-0 #[b Figura 7.] Recipiente rígido para corto punzantes
+                p.mb-0 #[b Figura 8.] Recipiente rígido para corto punzantes
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema7/figura10.png', alt='Recipiente rígido para corto punzantes')
 
@@ -272,16 +272,20 @@
     p.mb-4(data-aos="fade") En residuos peligrosos pueden usarse diferentes tipos de pictogramas como el del rombo NFPA, ver figura.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-4
+        .titulo-sexto.color-secundario(data-aos="fade")
+          p.mb-0 #[b Figura 9.] Etiqueta de modelo rombo NFPA
         figure
-          img.px-md-3(src='@/assets/curso/temas/tema7/figura12.png', alt='NFPA')
+          img.px-md-3(src='@/assets/curso/temas/tema7/figura12.png', alt='Etiqueta de modelo rombo NFPA')
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Sistema Globalmente Armonizado de clasificación y etiquetado de productos - SGA
     p.mb-4(data-aos="fade") Pictogramas como los del sistema globalmente armonizado.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-4
+        .titulo-sexto.color-secundario(data-aos="fade")
+          p.mb-0 #[b Figura 10.] Etiqueta SGA
         figure
-          img(src='@/assets/curso/temas/tema7/figura13.png', alt='SGA')       
+          img(src='@/assets/curso/temas/tema7/figura13.png', alt='Etiqueta SGA')       
 
     .row.fondo-gray.align-items-center.py-5.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -306,6 +310,8 @@
 
     .row.justify-content-center.mb-5
       .col-md-9(data-aos="fade-down")
+        .titulo-sexto.color-secundario(data-aos="fade")
+          p.mb-0 #[b Tabla 1.] Pictogramas más usados con la norma NTC1692
         .tabla-a.tema5
           table
             thead
@@ -415,12 +421,12 @@
 
     
     
-    p.mb-4(data-aos="fade") Para los residuos no peligrosos su rotulación es colocar el nombre del residuo, quien lo genera , fecha de recolección y el logo de reciclaje si es para reciclar y si es ordinario o común no se requiere de logo solo de la identificación del residuo, algunas veces en los rótulos se coloca el peso o volumen del residuo si este no está en el rotulo debe estar en los registros de gestión de residuos sea en el registro de recolección o de almacenamiento de residuos o de entrega de residuos para así llevar los indicadores de gestión de generación de residuos.
+    p.mb-4(data-aos="fade") Para los residuos no peligrosos su rotulación es colocar el nombre del residuo, quien lo genera, fecha de recolección y el logo de reciclaje si es para reciclar y si es ordinario o común no se requiere de logo solo de la identificación del residuo, algunas veces en los rótulos se coloca el peso o volumen del residuo si este no está en el rótulo debe estar en los registros de gestión de residuos sea en el registro de recolección o de almacenamiento de residuos o de entrega de residuos para así llevar los indicadores de gestión de generación de residuos.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 8.] Rotulado de la universidad los andes ejemplo de residuos peligrosos
+          p.mb-0 #[b Figura 11.] Rotulado de la universidad los andes ejemplo de residuos peligrosos
         figure
           img(src='@/assets/curso/temas/tema7/figura17.svg', alt='Rotulado de la universidad los andes ejemplo de residuos peligrosos')
           figcaption.bg-gray

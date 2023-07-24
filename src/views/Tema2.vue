@@ -42,6 +42,8 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10
+        .titulo-sexto.color-secundario
+          p.mb-0 #[b Figura 2.] CRETIIR
         figure
           img.px-md-3(src='@/assets/curso/temas/tema3/fig2.svg', alt='Residuos peligrosos Características: Corrosivo, Reactivo, Explosivo, Tóxico, Inflamable, Infeccioso, Radiactivo.')
           figcaption.bg-gray
@@ -141,7 +143,7 @@
       .row.tarjeta.bg-green7.p-4(titulo="Biosanitarios")
         .col-md-8
           h4 Biosanitarios
-          p Son todos aquellos elementos que tienen contacto con materia orgánica, sangre o fluidos corporales del paciente humano o animal tales como: gasas, apósitos, aplicadores, algodones, drenes, vendajes ropas desechables, toallas higiénicas, pañales entre otros similares (Ministerio del Medio Ambiente, 2002, p.21).
+          p Son todos aquellos elementos que tienen contacto con materia orgánica, sangre o fluidos corporales del paciente humano o animal, tales como: gasas, apósitos, aplicadores, algodones, drenes, vendajes, ropas desechables, toallas higiénicas, pañales, entre otros similares (Ministerio del Medio Ambiente, 2002, p.21).
         .col-md-4  
           figure
             img(src='@/assets/curso/temas/tema3/tab1.png', alt='Biosanitarios')
@@ -197,7 +199,7 @@
 
           .col-md-10(data-aos="fade-down")
             .titulo-sexto.color-secundario
-              p.mb-0 #[b Figura 2.] Clasificación de los residuos sólidos
+              p.mb-0 #[b Figura 3.] Clasificación de los residuos sólidos
             figure
               img.px-md-3(src='@/assets/curso/temas/tema3/fig3.svg', alt='La imagen presenta la clasificación de residuos sólidos, la cual se divide en: No peligrosos: aprovechables y ordinarios e inertes. Peligrosos: químico y riesgo biológico.')
               figcaption.bg-white.mt-3

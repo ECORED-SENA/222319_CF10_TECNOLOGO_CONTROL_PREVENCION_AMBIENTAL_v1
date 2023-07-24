@@ -185,7 +185,7 @@
         p En el 2005, el entonces Ministerio de Ambiente, Vivienda y Desarrollo Territorial (MAVDT) formuló la 
           span.t-green.text-bold Política ambiental para la gestión integral de los residuos o desechos peligrosos
           |, que estableció que el manejo inadecuado de los residuos con características de peligrosidad (residuos peligrosos, Respel) y su disposición final junto con residuos no peligrosos, se debía principalmente a la inexistencia de un sistema de manejo separado de los residuos peligrosos.
-        p.p-4.bg-green En este sentido, se establecieron los planes de gestión de devolución de productos posconsumo en Colombia, se identifican los siguientes residuos de posconsumo, con sus respectivos programas: medicamentos vencidos, computadores e impresoras en desuso, envases de plaguicidas domésticos, bombillas fluorescentes usadas, baterías usadas plomo acido, pilas usadas, llantas usadas.
+        p.p-4.bg-green En este sentido, se establecieron los planes de gestión de devolución de productos posconsumo en Colombia, se identifican los siguientes residuos de posconsumo, con sus respectivos programas: medicamentos vencidos, computadores e impresoras en desuso, envases de plaguicidas domésticos, bombillas fluorescentes usadas, baterías usadas plomo, ácido, pilas usadas, llantas usadas.
         p Así mismo, existen dos programas de devolución posconsumo que actualmente no está por normativa que es devolución posconsumo de celulares y aceites usados.
       .col-md-5.mb-4(data-aos="fade-left")
         figure

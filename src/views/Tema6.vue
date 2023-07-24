@@ -13,7 +13,7 @@
         p Las características de residuos sólidos y los volúmenes de producción varían geográficamente, en función de los hábitos y cultura de la población, sus condiciones socioeconómicas, las condiciones climáticas, así como de la disponibilidad y acceso a materias primas. De estas variaciones se deriva la importancia de los estudios puntuales de caracterización de residuos sólidos, donde se proyecte su gestión exitosa, para de este modo obtener información confiable sobre la cantidad y composición de los materiales, así como de sus opciones de aprovechamiento (Runfola, J., & Gallardo, A., 2009). Un procedimiento de campo utilizado para determinar la cantidad y composición de residuos sólidos en una región es el método del cuarteo, ver figura, en términos generales este procedimiento requiere de la descarga y el análisis de una cantidad de residuos en una zona específica (Hidrolab, 2018).
       .col-md-4(data-aos="fade-left")
         .titulo-sexto.color-secundario.mb-4(data-aos="fade")
-          p.mb-0 #[b Figura 9.] Cuarteo de residuos
+          p.mb-0 #[b Figura 12.] Cuarteo de residuos
         figure
           img(src='@/assets/curso/temas/tema8/img.png', alt='a')
           figcaption.bg-gray
@@ -142,7 +142,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Figura 10.] Prueba de densidad de residuos
+          p.mb-0 #[b Figura 13.] Prueba de densidad de residuos
         figure
           img.mb-3(src='@/assets/curso/temas/tema8/fig24.png', alt='Prueba de densidad de residuos')
          
@@ -174,7 +174,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8
         .titulo-sexto.color-secundario
-          p.mb-0 #[b Tabla 1.] Formato para el registro de residuos
+          p.mb-0 #[b Tabla 2.] Formato para el registro de residuos
         figure
           img.mb-1(src='@/assets/curso/temas/tema8/tabla6.svg', alt='Formato para el registro de residuos. Centro generador: Operario: Hora: Fecha: Periodo de acumulación de residuos: De: Hasta: Tipo de residuo. Centro generador (Kg/día o periodo de caracterización) Total 1 2 3 … N Total')
           
