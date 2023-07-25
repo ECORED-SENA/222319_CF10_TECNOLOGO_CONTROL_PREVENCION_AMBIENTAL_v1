@@ -241,7 +241,7 @@ export default {
     },
     {
       referencia:
-        'Hidrolab. (2018). Caracterización fisicoquímica residuos sólidos domiciliarios del municipio de Tibasosa. ',
+        'Hidrolab. (2018). Caracterización fisicoquímica residuos sólidos domiciliarios del municipio de Tibasosa.',
     },
     {
       referencia:
@@ -252,13 +252,13 @@ export default {
         'ICONTEC. (2005). Norma técnica colombiana NTC1692 Transporte de mercancías peligrosas definiciones, clasificación, marcado, etiquetado y rotulado.',
     },
     {
-      referencia: 'IGAC. (2018). Manejo de residuos peligrosos y especiales. ',
+      referencia: 'IGAC. (2018). Manejo de residuos peligrosos y especiales.',
       link:
         'http://igacnet2.igac.gov.co/intranet/UserFiles/File/procedimientos/instructivos/2018/I20604-01%2018V6%20Manejo%20de%20residuos%20pe.pdf',
     },
     {
       referencia:
-        'Instituto Nacional de Ecología y Cambio Climático. (2007). Impacto, adaptación y vulnerabilidad. ',
+        'Instituto Nacional de Ecología y Cambio Climático. (2007). Impacto, adaptación y vulnerabilidad.',
       link:
         'https://www.ipcc.ch/site/assets/uploads/2020/02/ar4-wg2-sum-vol-sp.pdf',
     },
@@ -270,15 +270,15 @@ export default {
     },
     {
       referencia:
-        'Minambiente. (2020). Gobierno unifica el código de colores para la separación de residuos en la fuente a nivel nacional. ',
-      link:
-        'https://archivo.minambiente.gov.co/index.php/noticias-minambiente/4595-gobierno-unifica-el-codigo-de-colores-para-la-separacion-de-residuos-en-la-fuente-a-nivel-nacional#:~:text=Los%20colores%20para%20la%20presentaci%C3%B3n,negro%20(residuos%20no%20aprovechables)',
-    },
-    {
-      referencia:
         'Minambiente (2017). Política Nacional integral de residuos de aparatos electrónicos. ',
       link:
         'https://archivo.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/pdf/e-book_rae_/contenido_4_1.html',
+    },
+    {
+      referencia:
+        'Minambiente. (2020). Gobierno unifica el código de colores para la separación de residuos en la fuente a nivel nacional.',
+      link:
+        'https://archivo.minambiente.gov.co/index.php/noticias-minambiente/4595-gobierno-unifica-el-codigo-de-colores-para-la-separacion-de-residuos-en-la-fuente-a-nivel-nacional#:~:text=Los%20colores%20para%20la%20presentaci%C3%B3n,negro%20(residuos%20no%20aprovechables)',
     },
     {
       referencia:
@@ -286,13 +286,13 @@ export default {
     },
     {
       referencia:
-        'Ministerio de ambiente y recursos naturales Guatemala. (2018). Guía para elaborar estudios de caracterización de residuos sólidos comunes. Gráfico método de cuarteo de residuos sólidos. ',
+        'Ministerio de ambiente y recursos naturales Guatemala. (2018). Guía para elaborar estudios de caracterización de residuos sólidos comunes. Gráfico método de cuarteo de residuos sólidos.',
       link:
         'https://reciclalos.com/assets/downloads/1634839935-Guia_Caracterizaci%C3%B3n_de_Residuos_S%C3%B3lidos_Comunes.pdf',
     },
     {
       referencia:
-        'Secretaria Distrital de Ambiente (2008). Gestión Integral de residuos peligrosos. ',
+        'Secretaria Distrital de Ambiente (2008). Gestión Integral de residuos peligrosos.',
       link: 'https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3707',
     },
     {
@@ -303,13 +303,13 @@ export default {
     },
     {
       referencia:
-        'Universidad del Norte. (2017). Residuos de construcción y demolición (RCD), una perspectiva de aprovechamiento para la ciudad de barranquilla desde su modelo de gestión.',
+        'Universidad del Norte. (2017). Residuos de construcción y demolición (RCD), una perspectiva de aprovechamiento para la ciudad de barranquilla desde su modelo de gestión. ',
       link:
         'http://www.scielo.org.co/pdf/inde/v35n2/2145-9371-inde-35-02-00533.pdf',
     },
     {
       referencia:
-        'Universidad Industrial de Santander. (2013). Sistema de Gestión Ambiental.',
+        'Universidad Industrial de Santander. (2013). Sistema de Gestión Ambiental. ',
       link: 'https://uis.edu.co/uis-sistema-gestion-ambiental-es/',
     },
   ],
